@@ -1,0 +1,37 @@
+.footerbar {
+    background: #020F2A;
+    height: 60px;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    color: #FFF;
+    padding: 0 0 0 40px;
+
+    & a {
+        color: #FFF;
+        font-size: 20px;
+
+        text-decoration: none;
+        &:focus, &:hover, &:visited, &:link, &:active {
+            text-decoration: none;
+        }
+
+        &:hover {
+            cursor: pointer;
+        }
+    }
+
+    & .link-btns {
+        display: flex;
+        margin: 0 0 0 30px;
+
+        & .link-btn {
+            display: flex;
+            align-items: center;    
+            height: 20px;
+            width: 20px;
+            margin: 0 5px 0 5px;
+        }
+    }
+}
+
