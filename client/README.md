@@ -35,10 +35,10 @@
 		├── reportWebVitals.js
 		└── setupTests.js
 
-## 2. Code Convention
+## 2. Naming & Code Convention
 #### Naming Convention
 	1. 기본 명명 규칙
-	"PscalCase"를 기본으로 생성한다.
+	"PascalCase"를 기본으로 생성한다.
 
 	2. 페이지 저장 폴더명
 	페이지를 담아두는 역할을 하는 폴더는 "(Role)Page" 와 같이 역할과 Page를 붙여 생성한다.
@@ -50,8 +50,7 @@
 	페이지를 구성하는 상세요소들의 이름은 "(Role).js" 와 같이 역할에 해당하는 이름을 붙여준다.
 
 	5. 컴포넌트 파일명
-	컴포넌트 폴더의 파일명은 어느 페이지에도 종속되지 않도록 "Button.js" 와 같이 요소에 해당하는
-	이름을 붙여준다.
+	컴포넌트 폴더의 파일명은 어느 페이지에도 종속되지 않도록 "Button.js" 와 같이 요소에 해당하는 이름을 붙여준다. (이름이 길어질 경우 LowerCamelCase로 작성한다, ex. playerRole.js)
 #### Code Convention
 	1. 코드 작성
 	문장의 끝에는 반드시 ';'(세미콜론)을 붙인다. 

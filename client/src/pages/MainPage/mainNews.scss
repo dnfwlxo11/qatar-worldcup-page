@@ -1,0 +1,29 @@
+.main-news-img {
+    width: 100%;
+
+    & .news-img {
+        position: absolute;
+        width: inherit;
+        z-index: 1;
+        // object-fit: fill;
+        // background-size: contain;
+    }
+
+    & .news-content {
+        position: absolute;
+        width: inherit;
+        height: inherit;
+        color: #FFF;
+        font-size: 40px;
+        z-index: 2;
+
+        & .title {
+            height: inherit;
+            padding: 20px;
+        }
+
+        & .content {
+
+        }
+    }
+}
