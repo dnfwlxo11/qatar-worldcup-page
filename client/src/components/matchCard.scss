@@ -2,7 +2,7 @@
     margin: 5px;
     padding: 20px;
     border-radius: 0.25rem;
-    border: solid lightgrey 1px;
+    // border: solid lightgrey 1px;
     background: #FFF;
 
     &-2 {
@@ -27,6 +27,15 @@
 
         & .match-schedule {
             margin-left: auto;
+        }
+    }
+
+    & .team-infor {
+        display: flex;
+
+        & .match-time {
+            margin-left: auto;
+            font-size: 20px;
         }
     }
 
