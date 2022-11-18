@@ -1,0 +1,60 @@
+.card {
+    margin: 5px;
+    padding: 20px;
+    border-radius: 0.25rem;
+    border: solid lightgrey 1px;
+    background: #FFF;
+
+    &-2 {
+        width: 50%;
+    }
+    
+    &-3 {
+        width: 33%;
+    }
+
+    &-4 {
+        width: 25%;
+    }
+
+    & .match-infor {
+        display: flex;
+        margin-bottom: 30px;
+
+        & .match-stat {
+            margin-right: auto;
+        }
+
+        & .match-schedule {
+            margin-left: auto;
+        }
+    }
+
+    & .team {
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+     
+        & .flag {
+            width: 40px;
+            height: 30px;
+            margin-right: 20px;
+        }
+
+        &:nth-child(odd) {
+            margin-bottom: 10px;
+        }
+
+        & .country {
+            display: flex;
+            justify-content: flex-start;
+            align-items: center;
+        }
+    }
+
+    & .match-time {
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+    }
+}

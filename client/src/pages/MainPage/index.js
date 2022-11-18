@@ -1,7 +1,7 @@
 import React from 'react';
 import './index.scss';
 import MainNews from './mainNews';
-import matchCard from '../../components/matchCard'
+import MatchCard from 'components/matchCard';
 
 function index(props) {
     return (
@@ -10,7 +10,7 @@ function index(props) {
                 <MainNews></MainNews>
             </div>
             <div>
-                <matchCard></matchCard>
+                <MatchCard></MatchCard>
             </div>    
         </div>
     );
