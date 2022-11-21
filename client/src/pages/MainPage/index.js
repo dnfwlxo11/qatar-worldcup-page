@@ -8,7 +8,7 @@ function index(props) {
     return (
         <div className='main'>
             <div>
-                <MainNews></MainNews>
+                {/* <MainNews></MainNews> */}
             </div>
             <div>
                 <MatchCard></MatchCard>
