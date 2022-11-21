@@ -1,8 +1,6 @@
 .card {
-    margin: 5px;
-    padding: 20px;
+    padding: 15px;
     border-radius: 0.25rem;
-    // border: solid lightgrey 1px;
     background: #FFF;
 
     &-2 {
@@ -48,6 +46,7 @@
             width: 40px;
             height: 30px;
             margin-right: 20px;
+            border: 1px solid #BF9B30;
         }
 
         &:nth-child(odd) {

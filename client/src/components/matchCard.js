@@ -2,29 +2,41 @@ import React from 'react';
 import './matchCard.scss';
 
 function matchCard(props) {
+    const match = props.match;
+
     return (
-        <div className='card card-4'>
+        <div className='card card-2'>
             <div className='match-infor'>
                 <div className='match-stat'>
-                    Match 1, Group A
+                    Group {match.group}
                 </div>
                 <div className='match-schedule'>
-                    21 Nov 2022
+                    {match.date}
                 </div>
             </div>
             <div className='team-infor'>
                 <div className='teams'>
                     <div className='team'>
-                        <img className='flag' src="/assets/flags/qatar.png" alt="국기1" />
-                        <span className='country'>Qatar</span>
+                        <img className='flag' src={`/assets/flags/${Object.keys(match.teams)[0]}.png`} alt="국기1" />
+                        <span className='country'>{Object.keys(match.teams)[0]}</span>
                     </div>
                     <div className='team'>
-                        <img className='flag' src="/assets/flags/equador.png" alt="국기2" />
-                        <span className='country'>Ecuador</span>
+                        <img className='flag' src={`/assets/flags/${Object.keys(match.teams)[1]}.png`} alt="국기2" />
+                        <span className='country'>{Object.keys(match.teams)[1]}</span>
                     </div>    
                 </div>
                 <div className='match-time'>
-                    <strong>01:00</strong>
+                    { match.finish ? 
+                        <div className='teams'>
+                            <div className='team'>
+                                <strong>{match.teams[Object.keys(match.teams)[0]].score}</strong>
+                            </div>
+                            <div className='team'>
+                                <strong>{match.teams[Object.keys(match.teams)[1]].score}</strong>
+                            </div>
+                        </div> :
+                        <strong>{match.time}</strong> 
+                    }
                 </div>
             </div>
         </div>
