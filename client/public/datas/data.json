@@ -1,0 +1,1286 @@
+{
+    "groupData": [
+        {
+            "groupName": "A",
+            "enrty": {
+                "qatar": {
+                    "abb": "QAT",
+                    "play": 0,
+                    "win": 0,
+                    "draw": 0,
+                    "loss": 0,
+                    "gd": 0,
+                    "points": 0
+                },
+                "equador": {
+                    "abb": "ECU",
+                    "play": 0,
+                    "win": 0,
+                    "draw": 0,
+                    "loss": 0,
+                    "gd": 0,
+                    "points": 0
+                },
+                "senegal": {
+                    "abb": "SEN",
+                    "play": 0,
+                    "win": 0,
+                    "draw": 0,
+                    "loss": 0,
+                    "gd": 0,
+                    "points": 0
+                },
+                "netherlands": {
+                    "abb": "NED",
+                    "play": 0,
+                    "win": 0,
+                    "draw": 0,
+                    "loss": 0,
+                    "gd": 0,
+                    "points": 0
+                }
+            }
+        },
+        {
+            "groupName": "B",
+            "enrty": {
+                "england": {
+                    "abb": "ENG",
+                    "play": 0,
+                    "win": 0,
+                    "draw": 0,
+                    "loss": 0,
+                    "gd": 0,
+                    "points": 0
+                },
+                "iran": {
+                    "abb": "IRN",
+                    "play": 0,
+                    "win": 0,
+                    "draw": 0,
+                    "loss": 0,
+                    "gd": 0,
+                    "points": 0
+                },
+                "usa": {
+                    "abb": "USA",
+                    "play": 0,
+                    "win": 0,
+                    "draw": 0,
+                    "loss": 0,
+                    "gd": 0,
+                    "points": 0
+                },
+                "wales": {
+                    "abb": "WAL",
+                    "play": 0,
+                    "win": 0,
+                    "draw": 0,
+                    "loss": 0,
+                    "gd": 0,
+                    "points": 0
+                }
+            }
+        },
+        {
+            "groupName": "C",
+            "enrty": {
+                "argentina": {
+                    "abb": "ARG",
+                    "play": 0,
+                    "win": 0,
+                    "draw": 0,
+                    "loss": 0,
+                    "gd": 0,
+                    "points": 0
+                },
+                "mexico": {
+                    "abb": "MEX",
+                    "play": 0,
+                    "win": 0,
+                    "draw": 0,
+                    "loss": 0,
+                    "gd": 0,
+                    "points": 0
+                },
+                "poland": {
+                    "abb": "POL",
+                    "play": 0,
+                    "win": 0,
+                    "draw": 0,
+                    "loss": 0,
+                    "gd": 0,
+                    "points": 0
+                },
+                "saudiarabia": {
+                    "abb": "KSA",
+                    "play": 0,
+                    "win": 0,
+                    "draw": 0,
+                    "loss": 0,
+                    "gd": 0,
+                    "points": 0
+                }
+            }
+        },
+        {
+            "groupName": "D",
+            "enrty": {
+                "australia": {
+                    "abb": "AUS",
+                    "play": 0,
+                    "win": 0,
+                    "draw": 0,
+                    "loss": 0,
+                    "gd": 0,
+                    "points": 0
+                },
+                "denmark": {
+                    "abb": "DEN",
+                    "play": 0,
+                    "win": 0,
+                    "draw": 0,
+                    "loss": 0,
+                    "gd": 0,
+                    "points": 0
+                },
+                "france": {
+                    "abb": "FRA",
+                    "play": 0,
+                    "win": 0,
+                    "draw": 0,
+                    "loss": 0,
+                    "gd": 0,
+                    "points": 0
+                },
+                "turkey": {
+                    "abb": "TUN",
+                    "play": 0,
+                    "win": 0,
+                    "draw": 0,
+                    "loss": 0,
+                    "gd": 0,
+                    "points": 0
+                }
+            }
+        },
+        {
+            "groupName": "E",
+            "enrty": {
+                "costarica": {
+                    "abb": "CRC",
+                    "play": 0,
+                    "win": 0,
+                    "draw": 0,
+                    "loss": 0,
+                    "gd": 0,
+                    "points": 0
+                },
+                "germany": {
+                    "abb": "GER",
+                    "play": 0,
+                    "win": 0,
+                    "draw": 0,
+                    "loss": 0,
+                    "gd": 0,
+                    "points": 0
+                },
+                "japan": {
+                    "abb": "JPN",
+                    "play": 0,
+                    "win": 0,
+                    "draw": 0,
+                    "loss": 0,
+                    "gd": 0,
+                    "points": 0
+                },
+                "spain": {
+                    "abb": "ESP",
+                    "play": 0,
+                    "win": 0,
+                    "draw": 0,
+                    "loss": 0,
+                    "gd": 0,
+                    "points": 0
+                }
+            }
+        },
+        {
+            "groupName": "F",
+            "enrty": {
+                "belgium": {
+                    "abb": "BEL",
+                    "play": 0,
+                    "win": 0,
+                    "draw": 0,
+                    "loss": 0,
+                    "gd": 0,
+                    "points": 0
+                },
+                "canada": {
+                    "abb": "CAN",
+                    "play": 0,
+                    "win": 0,
+                    "draw": 0,
+                    "loss": 0,
+                    "gd": 0,
+                    "points": 0
+                },
+                "croatia": {
+                    "abb": "CRO",
+                    "play": 0,
+                    "win": 0,
+                    "draw": 0,
+                    "loss": 0,
+                    "gd": 0,
+                    "points": 0
+                },
+                "morocco": {
+                    "abb": "MAR",
+                    "play": 0,
+                    "win": 0,
+                    "draw": 0,
+                    "loss": 0,
+                    "gd": 0,
+                    "points": 0
+                }
+            }
+        },
+        {
+            "groupName": "G",
+            "enrty": {
+                "brazil": {
+                    "abb": "BRA",
+                    "play": 0,
+                    "win": 0,
+                    "draw": 0,
+                    "loss": 0,
+                    "gd": 0,
+                    "points": 0
+                },
+                "cameroon": {
+                    "abb": "CMR",
+                    "play": 0,
+                    "win": 0,
+                    "draw": 0,
+                    "loss": 0,
+                    "gd": 0,
+                    "points": 0
+                },
+                "serbia": {
+                    "abb": "SRB",
+                    "play": 0,
+                    "win": 0,
+                    "draw": 0,
+                    "loss": 0,
+                    "gd": 0,
+                    "points": 0
+                },
+                "swiss": {
+                    "abb": "SUI",
+                    "play": 0,
+                    "win": 0,
+                    "draw": 0,
+                    "loss": 0,
+                    "gd": 0,
+                    "points": 0
+                }
+            }
+        },
+        {
+            "groupName": "H",
+            "enrty": {
+                "ghana": {
+                    "abb": "GHA",
+                    "play": 0,
+                    "win": 0,
+                    "draw": 0,
+                    "loss": 0,
+                    "gd": 0,
+                    "points": 0
+                },
+                "korea": {
+                    "abb": "KOR",
+                    "play": 0,
+                    "win": 0,
+                    "draw": 0,
+                    "loss": 0,
+                    "gd": 0,
+                    "points": 0
+                },
+                "portugal": {
+                    "abb": "POR",
+                    "play": 0,
+                    "win": 0,
+                    "draw": 0,
+                    "loss": 0,
+                    "gd": 0,
+                    "points": 0
+                },
+                "uruguay": {
+                    "abb": "URU",
+                    "play": 0,
+                    "win": 0,
+                    "draw": 0,
+                    "loss": 0,
+                    "gd": 0,
+                    "points": 0
+                }
+            }
+        }        
+    ],
+    "matchData": {
+        "groupStage": [
+            {
+                "teams": {
+                    "qatar": {
+                        "abb": "QAT",
+                        "score": 0
+                    },
+                    "equador": {
+                        "abb": "ECU",
+                        "score": 2
+                    }
+                },
+                "group": "A",
+                "time": "01:00",
+                "date": "2022.11.21"
+            },
+            {
+                "teams": {
+                    "england": {
+                        "abb": "ENG",
+                        "score": 0
+                    },
+                    "iran": {
+                        "abb": "IRN",
+                        "score": 0
+                    }
+                },
+                "group": "B",
+                "time": "22:00",
+                "date": "2022.11.21"
+            },
+
+            {
+                "teams": {
+                    "sebegal": {
+                        "abb": "SEN",
+                        "score": 0
+                    },
+                    "netherlands": {
+                        "abb": "NED",
+                        "score": 0
+                    }
+                },
+                "group": "A",
+                "time": "01:00",
+                "date": "2022.11.22"
+            },
+            {
+                "teams": {
+                    "usa": {
+                        "abb": "USA",
+                        "score": 0
+                    },
+                    "wales": {
+                        "abb": "WAL",
+                        "score": 0
+                    }
+                },
+                "group": "B",
+                "time": "04:00",
+                "date": "2022.11.22"
+            },
+            {
+                "teams": {
+                    "aragentina": {
+                        "abb": "ARG",
+                        "score": 0
+                    },
+                    "saudiarabia": {
+                        "abb": "KSA",
+                        "score": 0
+                    }
+                },
+                "group": "C",
+                "time": "19:00",
+                "date": "2022.11.22"
+            },
+            {
+                "teams": {
+                    "denmark": {
+                        "abb": "DEN",
+                        "score": 0
+                    },
+                    "turkey": {
+                        "abb": "TUN",
+                        "score": 0
+                    }
+                },
+                "group": "D",
+                "time": "22:00",
+                "date": "2022.11.22"
+            },
+
+            {
+                "teams": {
+                    "mexico": {
+                        "abb": "MEX",
+                        "score": 0
+                    },
+                    "poland": {
+                        "abb": "POL",
+                        "score": 0
+                    }
+                },
+                "group": "C",
+                "time": "01:00",
+                "date": "2022.11.23"
+            },
+            {
+                "teams": {
+                    "france": {
+                        "abb": "FRA",
+                        "score": 0
+                    },
+                    "australia": {
+                        "abb": "AUS",
+                        "score": 0
+                    }
+                },
+                "group": "D",
+                "time": "04:00",
+                "date": "2022.11.23"
+            },
+            {
+                "teams": {
+                    "morocco": {
+                        "abb": "MAR",
+                        "score": 0
+                    },
+                    "croatia": {
+                        "abb": "CRO",
+                        "score": 0
+                    }
+                },
+                "group": "F",
+                "time": "19:00",
+                "date": "2022.11.23"
+            },
+            {
+                "teams": {
+                    "germany": {
+                        "abb": "GER",
+                        "score": 0
+                    },
+                    "japan": {
+                        "abb": "JPN",
+                        "score": 0
+                    }
+                },
+                "group": "E",
+                "time": "22:00",
+                "date": "2022.11.23"
+            },
+
+            {
+                "teams": {
+                    "spain": {
+                        "abb": "ESP",
+                        "score": 0
+                    },
+                    "costarica": {
+                        "abb": "CRC",
+                        "score": 0
+                    }
+                },
+                "group": "E",
+                "time": "01:00",
+                "date": "2022.11.24"
+            },
+            {
+                "teams": {
+                    "belgium": {
+                        "abb": "BEL",
+                        "score": 0
+                    },
+                    "canada": {
+                        "abb": "CAN",
+                        "score": 0
+                    }
+                },
+                "group": "F",
+                "time": "04:00",
+                "date": "2022.11.24"
+            },
+            {
+                "teams": {
+                    "swiss": {
+                        "abb": "SUI",
+                        "score": 0
+                    },
+                    "cameroon": {
+                        "abb": "CMR",
+                        "score": 0
+                    }
+                },
+                "group": "G",
+                "time": "19:00",
+                "date": "2022.11.24"
+            },
+            {
+                "teams": {
+                    "uruguay": {
+                        "abb": "URU",
+                        "score": 0
+                    },
+                    "korea": {
+                        "abb": "KOR",
+                        "score": 0
+                    }
+                },
+                "group": "H",
+                "time":  "22:00",
+                "date": "2022.11.24"
+            },
+
+            {
+                "teams": {
+                    "portugal": {
+                        "abb": "POR",
+                        "score": 0
+                    },
+                    "ghana": {
+                        "abb": "GHA",
+                        "score": 0
+                    }
+                },
+                "group": "H",
+                "time": "01:00",
+                "date": "2022.11.25"
+            },
+            {
+                "teams": {
+                    "brazil": {
+                        "abb": "BRA",
+                        "score": 0
+                    },
+                    "serbia": {
+                        "abb": "SRB",
+                        "score": 0
+                    }
+                },
+                "group": "G",
+                "time": "04:00",
+                "date": "2022.11.25"
+            },
+            {
+                "teams": {
+                    "wales": {
+                        "abb": "WAL",
+                        "score": 0
+                    },
+                    "iran": {
+                        "abb": "IRN",
+                        "score": 0
+                    }
+                },
+                "group": "B",
+                "time": "19:00",
+                "date": "2022.11.25"
+            },
+            {
+                "teams": {
+                    "qatar": {
+                        "abb": "QAT",
+                        "score": 0
+                    },
+                    "senegal": {
+                        "abb": "SEN",
+                        "score": 0
+                    }
+                },
+                "group": "A",
+                "time": "22:00",
+                "date": "2022.11.25"
+            },
+            
+            {
+                "teams": {
+                    "netherlands": {
+                        "abb": "NED",
+                        "score": 0
+                    },
+                    "equador": {
+                        "abb": "ECU",
+                        "score": 0
+                    }
+                },
+                "group": "A",
+                "time": "01:00",
+                "date": "2022.11.26"
+            },
+            {
+                "teams": {
+                    "england": {
+                        "abb": "ENG",
+                        "score": 0
+                    },
+                    "usa": {
+                        "abb": "USA",
+                        "score": 0
+                    }
+                },
+                "group": "B",
+                "time": "04:00",
+                "date": "2022.11.26"
+            },
+            {
+                "teams": {
+                    "turkey": {
+                        "abb": "TUN",
+                        "score": 0
+                    },
+                    "australia": {
+                        "abb": "AUS",
+                        "score": 0
+                    }
+                },
+                "group": "D",
+                "time": "19:00",
+                "date": "2022.11.26"
+            },
+            {
+                "teams": {
+                    "poland": {
+                        "abb": "POL",
+                        "score": 0
+                    },
+                    "saudiarabia": {
+                        "abb": "KSA",
+                        "score": 0
+                    }
+                },
+                "group": "C",
+                "time": "22:00",
+                "date": "2022.11.26"
+            },
+            
+            {
+                "teams": {
+                    "france": {
+                        "abb": "FRA",
+                        "score": 0
+                    },
+                    "denmark": {
+                        "abb": "DEN",
+                        "score": 0
+                    }
+                },
+                "group": "D",
+                "time": "01:00",
+                "date": "2022.11.27"
+            },
+            {
+                "teams": {
+                    "aragentina": {
+                        "abb": "ARG",
+                        "score": 0
+                    },
+                    "mexico": {
+                        "abb": "MEX",
+                        "score": 0
+                    }
+                },
+                "group": "C",
+                "time": "04:00",
+                "date": "2022.11.27"
+            },
+            {
+                "teams": {
+                    "japan": {
+                        "abb": "JPN",
+                        "score": 0
+                    },
+                    "costarica": {
+                        "abb": "CRC",
+                        "score": 0
+                    }
+                },
+                "group": "E",
+                "time": "19:00",
+                "date": "2022.11.27"
+            },
+            {
+                "teams": {
+                    "belgium": {
+                        "abb": "BEL",
+                        "score": 0
+                    },
+                    "morocco": {
+                        "abb": "MAR",
+                        "score": 0
+                    }
+                },
+                "group": "F",
+                "time": "22:00",
+                "date": "2022.11.27"
+            },
+
+            {
+                "teams": {
+                    "croatia": {
+                        "abb": "CRO",
+                        "score": 0
+                    },
+                    "canada": {
+                        "abb": "CAN",
+                        "score": 0
+                    }
+                },
+                "group": "F",
+                "time": "01:00",
+                "date": "2022.11.28"
+            },
+            {
+                "teams": {
+                    "spain": {
+                        "abb": "ESP",
+                        "score": 0
+                    },
+                    "germany": {
+                        "abb": "GER",
+                        "score": 0
+                    }
+                },
+                "group": "E",
+                "time": "04:00",
+                "date": "2022.11.28"
+            },
+            {
+                "teams": {
+                    "cameroon": {
+                        "abb": "CMR",
+                        "score": 0
+                    },
+                    "serbia": {
+                        "abb": "SRB",
+                        "score": 0
+                    }
+                },
+                "group": "G",
+                "time": "19:00",
+                "date": "2022.11.28"
+            },
+            {
+                "teams": {
+                    "korea": {
+                        "abb": "KOR",
+                        "score": 0
+                    },
+                    "ghana": {
+                        "abb": "GHA",
+                        "score": 0
+                    }
+                },
+                "group": "A",
+                "time": "22:00",
+                "date": "2022.11.28"
+            },
+
+            {
+                "teams": {
+                    "brazil": {
+                        "abb": "BRA",
+                        "score": 0
+                    },
+                    "swiss": {
+                        "abb": "SUI",
+                        "score": 0
+                    }
+                },
+                "group": "G",
+                "time": "01:00",
+                "date": "2022.11.29"
+            },
+            {
+                "teams": {
+                    "portugal": {
+                        "abb": "POR",
+                        "score": 0
+                    },
+                    "uruguay": {
+                        "abb": "URU",
+                        "score": 0
+                    }
+                },
+                "group": "H",
+                "time": "04:00",
+                "date": "2022.11.29"
+            },
+
+            {
+                "teams": {
+                    "netherlands": {
+                        "abb": "NED",
+                        "score": 0
+                    },
+                    "qatar": {
+                        "abb": "QAT",
+                        "score": 0
+                    }
+                },
+                "group": "A",
+                "time": "00:00",
+                "date": "2022.11.30"
+            },
+            {
+                "teams": {
+                    "ecuador": {
+                        "abb": "ECU",
+                        "score": 0
+                    },
+                    "senegal": {
+                        "abb": "SEN",
+                        "score": 0
+                    }
+                },
+                "group": "A",
+                "time": "00:00",
+                "date": "2022.11.30"
+            },
+            {
+                "teams": {
+                    "wales": {
+                        "abb": "WAL",
+                        "score": 0
+                    },
+                    "england": {
+                        "abb": "ENG",
+                        "score": 0
+                    }
+                },
+                "group": "B",
+                "time": "04:00",
+                "date": "2022.11.30"
+            },
+            {
+                "teams": {
+                    "iran": {
+                        "abb": "IRN",
+                        "score": 0
+                    },
+                    "usa": {
+                        "abb": "usa",
+                        "score": 0
+                    }
+                },
+                "group": "B",
+                "time": "04:00",
+                "date": "2022.11.30"
+            },
+
+            {
+                "teams": {
+                    "australia": {
+                        "abb": "AUS",
+                        "score": 0
+                    },
+                    "denmark": {
+                        "abb": "DEN",
+                        "score": 0
+                    }
+                },
+                "group": "D",
+                "time": "01:00",
+                "date": "2022.12.01"
+            },
+            {
+                "teams": {
+                    "turkey": {
+                        "abb": "TUN",
+                        "score": 0
+                    },
+                    "france": {
+                        "abb": "FRA",
+                        "score": 0
+                    }
+                },
+                "group": "D",
+                "time": "01:00",
+                "date": "2022.12.01"
+            },
+            {
+                "teams": {
+                    "poland": {
+                        "abb": "POL",
+                        "score": 0
+                    },
+                    "aragentina": {
+                        "abb": "ARG",
+                        "score": 0
+                    }
+                },
+                "group": "C",
+                "time": "04:00",
+                "date": "2022.12.01"
+            },
+            {
+                "teams": {
+                    "saudiarabia": {
+                        "abb": "KSA",
+                        "score": 0
+                    },
+                    "mexico": {
+                        "abb": "MEX",
+                        "score": 0
+                    }
+                },
+                "group": "C",
+                "time": "04:00",
+                "date": "2022.12.01"
+            },
+
+            {
+                "teams": {
+                    "croatia": {
+                        "abb": "CRO",
+                        "score": 0
+                    },
+                    "belgium": {
+                        "abb": "BEL",
+                        "score": 0
+                    }
+                },
+                "group": "F",
+                "time": "00:00",
+                "date": "2022.12.02"
+            },
+            {
+                "teams": {
+                    "canada": {
+                        "abb": "CAN",
+                        "score": 0
+                    },
+                    "morocco": {
+                        "abb": "MAR",
+                        "score": 0
+                    }
+                },
+                "group": "F",
+                "time": "00:00",
+                "date": "2022.12.02"
+            },
+            {
+                "teams": {
+                    "japan": {
+                        "abb": "JPN",
+                        "score": 0
+                    },
+                    "spain": {
+                        "abb": "ESP",
+                        "score": 0
+                    }
+                },
+                "group": "E",
+                "time": "04:00",
+                "date": "2022.12.02"
+            },
+            {
+                "teams": {
+                    "costarica": {
+                        "abb": "CRC",
+                        "score": 0
+                    },
+                    "germany": {
+                        "abb": "GER",
+                        "score": 0
+                    }
+                },
+                "group": "E",
+                "time": "04:00",
+                "date": "2022.12.02"
+            },
+
+            {
+                "teams": {
+                    "ghana": {
+                        "abb": "GHA",
+                        "score": 0
+                    },
+                    "uruguay": {
+                        "abb": "URU",
+                        "score": 0
+                    }
+                },
+                "group": "H",
+                "time": "00:00",
+                "date": "2022.11.03"
+            },
+            {
+                "teams": {
+                    "korea": {
+                        "abb": "KOR",
+                        "score": 0
+                    },
+                    "portugal": {
+                        "abb": "POR",
+                        "score": 0
+                    }
+                },
+                "group": "H",
+                "time": "00:00",
+                "date": "2022.11.25"
+            },
+            {
+                "teams": {
+                    "serbia": {
+                        "abb": "SRB",
+                        "score": 0
+                    },
+                    "swiss": {
+                        "abb": "SUI",
+                        "score": 0
+                    }
+                },
+                "group": "G",
+                "time": "04:00",
+                "date": "2022.12.02"
+            },
+            {
+                "teams": {
+                    "cameroon": {
+                        "abb": "CMR",
+                        "score": 0
+                    },
+                    "brazil": {
+                        "abb": "BRA",
+                        "score": 0
+                    }
+                },
+                "group": "G",
+                "time": "04:00",
+                "date": "2022.12.02"
+            }
+        ],
+        "tournament": {
+            "roundOf16": [
+                {
+                    "teams": {
+                        "1A": {
+                            "abb": "1a",
+                            "score": 0
+                        },
+                        "2b": {
+                            "abb": "2b",
+                            "score": 0
+                        }
+                    },
+                    "time": "00:00",
+                    "date": "2022.12.04"
+                },
+                {
+                    "teams": {
+                        "1C": {
+                            "abb": "1c",
+                            "score": 0
+                        },
+                        "2D": {
+                            "abb": "2d",
+                            "score": 0
+                        }
+                    },
+                    "time": "04:00",
+                    "date": "2022.12.04"
+                },
+                {
+                    "teams": {
+                        "1D": {
+                            "abb": "1d",
+                            "score": 0
+                        },
+                        "2C": {
+                            "abb": "2c",
+                            "score": 0
+                        }
+                    },
+                    "time": "00:00",
+                    "date": "2022.12.05"
+                },
+                {
+                    "teams": {
+                        "1B": {
+                            "abb": "1b",
+                            "score": 0
+                        },
+                        "2A": {
+                            "abb": "2a",
+                            "score": 0
+                        }
+                    },
+                    "time": "04:00",
+                    "date": "2022.12.05"
+                },
+                {
+                    "teams": {
+                        "1E": {
+                            "abb": "1e",
+                            "score": 0
+                        },
+                        "2F": {
+                            "abb": "2f",
+                            "score": 0
+                        }
+                    },
+                    "time": "00:00",
+                    "date": "2022.12.06"
+                },
+                {
+                    "teams": {
+                        "1G": {
+                            "abb": "1g",
+                            "score": 0
+                        },
+                        "2H": {
+                            "abb": "2h",
+                            "score": 0
+                        }
+                    },
+                    "time": "04:00",
+                    "date": "2022.12.06"
+                },
+                {
+                    "teams": {
+                        "1F": {
+                            "abb": "1f",
+                            "score": 0
+                        },
+                        "2E": {
+                            "abb": "2e",
+                            "score": 0
+                        }
+                    },
+                    "time": "00:00",
+                    "date": "2022.12.07"
+                },
+                {
+                    "teams": {
+                        "1H": {
+                            "abb": "1h",
+                            "score": 0
+                        },
+                        "2G": {
+                            "abb": "2g",
+                            "score": 0
+                        }
+                    },
+                    "time": "04:00",
+                    "date": "2022.12.07"
+                }
+            ],
+            "quarterFinal": [
+                {
+                    "teams": {
+                        "W53": {
+                            "abb": "w53",
+                            "score": 0
+                        },
+                        "W54": {
+                            "abb": "w54",
+                            "score": 0
+                        }
+                    },
+                    "time": "00:00",
+                    "date": "2022.12.10"
+                },
+                {
+                    "teams": {
+                        "W49": {
+                            "abb": "w49",
+                            "score": 0
+                        },
+                        "W50": {
+                            "abb": "w50",
+                            "score": 0
+                        }
+                    },
+                    "time": "04:00",
+                    "date": "2022.12.10"
+                },
+                {
+                    "teams": {
+                        "W55": {
+                            "abb": "w55",
+                            "score": 0
+                        },
+                        "W56": {
+                            "abb": "w56",
+                            "score": 0
+                        }
+                    },
+                    "time": "00:00",
+                    "date": "2022.12.11"
+                },
+                {
+                    "teams": {
+                        "W51": {
+                            "abb": "W51",
+                            "score": 0
+                        },
+                        "W52": {
+                            "abb": "w52",
+                            "score": 0
+                        }
+                    },
+                    "time": "04:00",
+                    "date": "2022.12.11"
+                }
+            ],
+            "semiFinal": [
+                {
+                    "teams": {
+                        "W57": {
+                            "abb": "w57",
+                            "score": 0
+                        },
+                        "W58": {
+                            "abb": "w58",
+                            "score": 0
+                        }
+                    },
+                    "time": "04:00",
+                    "date": "2022.12.14"
+                },
+                {
+                    "teams": {
+                        "W59": {
+                            "abb": "w59",
+                            "score": 0
+                        },
+                        "W60": {
+                            "abb": "w60",
+                            "score": 0
+                        }
+                    },
+                    "time": "04:00",
+                    "date": "2022.12.15"
+                }
+            ],
+            "final": {
+                "teams": {
+                    "RU61": {
+                        "abb": "ru61",
+                        "score": 0
+                    },
+                    "RU62": {
+                        "abb": "ru62",
+                        "score": 0
+                    }
+                },
+                "time": "00:00",
+                "date": "2022.12.18"
+            }
+        }
+    }
+}

@@ -3,6 +3,45 @@ import './groupCard.scss'
 
 function groupCard(props) {
     const groupData = {
+        groupName: 'A',
+        enrty: {
+            'qatar': {
+                'abb': 'QAT',
+                'play': 0,
+                'win': 0,
+                'draw': 0,
+                'loss': 0,
+                'gd': 0,
+                'points': 0,
+            },
+            'equador': {
+                'abb': 'ECU',
+                'play': 0,
+                'win': 0,
+                'draw': 0,
+                'loss': 0,
+                'gd': 0,
+                'points': 0,
+            },
+            'senegal': {
+                'abb': 'SEN',
+                'play': 0,
+                'win': 0,
+                'draw': 0,
+                'loss': 0,
+                'gd': 0,
+                'points': 0,
+            },
+            'netherlands': {
+                'abb': 'NED',
+                'play': 0,
+                'win': 0,
+                'draw': 0,
+                'loss': 0,
+                'gd': 0,
+                'points': 0,
+            },
+        }
     }
 
     return (
