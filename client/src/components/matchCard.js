@@ -1,11 +1,17 @@
 import React from 'react';
+import { useNavigate } from 'react-router-dom';
 import './matchCard.scss';
 
-function matchCard(props) {
+function MatchCard(props) {
     const match = props.match;
+    const navigate = useNavigate();
+
+    function onClickMatchCard(id) {
+        navigate(`/match/${id}`);
+    }
 
     return (
-        <div className='card card-2'>
+        <div className='card' onClick={onClickMatchCard(match.id)}>
             <div className='match-infor'>
                 <div className='match-stat'>
                     Group {match.group}
@@ -43,4 +49,4 @@ function matchCard(props) {
     );
 }
 
-export default matchCard;
+export default MatchCard;

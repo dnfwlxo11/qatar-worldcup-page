@@ -1,11 +1,43 @@
-import React from 'react';
+import React, { useEffect, useState } from 'react';
+import Utils from 'utils';
+import './index.scss';
 
-function index(props) {
+import MatchCard from 'components/matchCard';
+
+function Index(props) {
+    const [matchData, setMatchData] = useState({});
+
+    useEffect(() => {
+        let complete = false;
+
+        async function loadData() {
+            const response = await Utils.axios.get('/datas/match.json');
+
+            if (!complete) {
+                setMatchData(response.data.matchData);
+            }
+        }
+
+        loadData();
+    }, []);
+
+
     return (
         <div>
-            Match Page 입니다.
+            <div className='container'>
+                <div className='title'>
+                    <strong>
+                        Match
+                    </strong>    
+                </div>
+                <div className='content'>
+                    {matchData.groupStage && matchData.groupStage.map((match, idx) => {
+                        return <MatchCard key={idx} match={match}></MatchCard> 
+                    })}
+                </div>
+            </div>
         </div>
     );
 }
 
-export default index;
+export default Index;

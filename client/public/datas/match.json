@@ -2,8 +2,9 @@
     "groupData": [
         {
             "groupName": "A",
-            "entry": {
-                "qatar": {
+            "entry": [
+                {
+                    "name": "qatar",
                     "abb": "QAT",
                     "play": 1,
                     "win": 0,
@@ -12,7 +13,8 @@
                     "gd": -2,
                     "points": 0
                 },
-                "ecuador": {
+                {
+                    "name": "ecuador",
                     "abb": "ECU",
                     "play": 1,
                     "win": 1,
@@ -21,7 +23,8 @@
                     "gd": 2,
                     "points": 3
                 },
-                "senegal": {
+                {
+                    "name": "senegal",
                     "abb": "SEN",
                     "play": 0,
                     "win": 0,
@@ -30,7 +33,8 @@
                     "gd": 0,
                     "points": 0
                 },
-                "netherlands": {
+                {
+                    "name": "netherlands",
                     "abb": "NED",
                     "play": 0,
                     "win": 0,
@@ -39,12 +43,13 @@
                     "gd": 0,
                     "points": 0
                 }
-            }
+            ]
         },
         {
             "groupName": "B",
-            "entry": {
-                "england": {
+            "entry": [
+                {
+                    "name": "england",
                     "abb": "ENG",
                     "play": 0,
                     "win": 0,
@@ -53,7 +58,8 @@
                     "gd": 0,
                     "points": 0
                 },
-                "iran": {
+                {
+                    "name": "iran",
                     "abb": "IRN",
                     "play": 0,
                     "win": 0,
@@ -62,7 +68,8 @@
                     "gd": 0,
                     "points": 0
                 },
-                "usa": {
+                {
+                    "name": "usa",
                     "abb": "USA",
                     "play": 0,
                     "win": 0,
@@ -71,7 +78,8 @@
                     "gd": 0,
                     "points": 0
                 },
-                "wales": {
+                {
+                    "name": "wales",
                     "abb": "WAL",
                     "play": 0,
                     "win": 0,
@@ -80,12 +88,13 @@
                     "gd": 0,
                     "points": 0
                 }
-            }
+            ]
         },
         {
             "groupName": "C",
-            "entry": {
-                "argentina": {
+            "entry": [
+                {
+                    "name": "argentina",
                     "abb": "ARG",
                     "play": 0,
                     "win": 0,
@@ -94,7 +103,8 @@
                     "gd": 0,
                     "points": 0
                 },
-                "mexico": {
+                {
+                    "name": "mexico",
                     "abb": "MEX",
                     "play": 0,
                     "win": 0,
@@ -103,7 +113,8 @@
                     "gd": 0,
                     "points": 0
                 },
-                "poland": {
+                {
+                    "name": "poland",
                     "abb": "POL",
                     "play": 0,
                     "win": 0,
@@ -112,7 +123,8 @@
                     "gd": 0,
                     "points": 0
                 },
-                "saudiarabia": {
+                {
+                    "name": "saudiarabia",
                     "abb": "KSA",
                     "play": 0,
                     "win": 0,
@@ -121,12 +133,13 @@
                     "gd": 0,
                     "points": 0
                 }
-            }
+            ]
         },
         {
             "groupName": "D",
-            "entry": {
-                "australia": {
+            "entry": [
+                {
+                    "name": "australia",
                     "abb": "AUS",
                     "play": 0,
                     "win": 0,
@@ -135,7 +148,8 @@
                     "gd": 0,
                     "points": 0
                 },
-                "denmark": {
+                {
+                    "name": "denmark",
                     "abb": "DEN",
                     "play": 0,
                     "win": 0,
@@ -144,7 +158,8 @@
                     "gd": 0,
                     "points": 0
                 },
-                "france": {
+                {
+                    "name": "france",
                     "abb": "FRA",
                     "play": 0,
                     "win": 0,
@@ -153,7 +168,8 @@
                     "gd": 0,
                     "points": 0
                 },
-                "turkey": {
+                {
+                    "name": "turkey",
                     "abb": "TUN",
                     "play": 0,
                     "win": 0,
@@ -162,12 +178,13 @@
                     "gd": 0,
                     "points": 0
                 }
-            }
+            ]
         },
         {
             "groupName": "E",
-            "entry": {
-                "costarica": {
+            "entry": [
+                {
+                    "name": "costarica",
                     "abb": "CRC",
                     "play": 0,
                     "win": 0,
@@ -176,7 +193,8 @@
                     "gd": 0,
                     "points": 0
                 },
-                "germany": {
+                {
+                    "name": "germany",
                     "abb": "GER",
                     "play": 0,
                     "win": 0,
@@ -185,7 +203,8 @@
                     "gd": 0,
                     "points": 0
                 },
-                "japan": {
+                {
+                    "name": "japan",
                     "abb": "JPN",
                     "play": 0,
                     "win": 0,
@@ -194,7 +213,8 @@
                     "gd": 0,
                     "points": 0
                 },
-                "spain": {
+                {
+                    "name": "spain",
                     "abb": "ESP",
                     "play": 0,
                     "win": 0,
@@ -203,12 +223,13 @@
                     "gd": 0,
                     "points": 0
                 }
-            }
+            ]
         },
         {
             "groupName": "F",
-            "entry": {
-                "belgium": {
+            "entry": [
+                {
+                    "name": "belgium",
                     "abb": "BEL",
                     "play": 0,
                     "win": 0,
@@ -217,7 +238,8 @@
                     "gd": 0,
                     "points": 0
                 },
-                "canada": {
+                {
+                    "name": "canada",
                     "abb": "CAN",
                     "play": 0,
                     "win": 0,
@@ -226,7 +248,8 @@
                     "gd": 0,
                     "points": 0
                 },
-                "croatia": {
+                {
+                    "name": "croatia",
                     "abb": "CRO",
                     "play": 0,
                     "win": 0,
@@ -235,7 +258,8 @@
                     "gd": 0,
                     "points": 0
                 },
-                "morocco": {
+                {
+                    "name": "morocco",
                     "abb": "MAR",
                     "play": 0,
                     "win": 0,
@@ -244,12 +268,13 @@
                     "gd": 0,
                     "points": 0
                 }
-            }
+            ]
         },
         {
             "groupName": "G",
-            "entry": {
-                "brazil": {
+            "entry": [
+                {
+                    "name": "brazil",
                     "abb": "BRA",
                     "play": 0,
                     "win": 0,
@@ -258,7 +283,8 @@
                     "gd": 0,
                     "points": 0
                 },
-                "cameroon": {
+                {
+                    "name": "cameroon",
                     "abb": "CMR",
                     "play": 0,
                     "win": 0,
@@ -267,7 +293,8 @@
                     "gd": 0,
                     "points": 0
                 },
-                "serbia": {
+                {
+                    "name": "serbia",
                     "abb": "SRB",
                     "play": 0,
                     "win": 0,
@@ -276,7 +303,8 @@
                     "gd": 0,
                     "points": 0
                 },
-                "swiss": {
+                {
+                    "name": "swiss",
                     "abb": "SUI",
                     "play": 0,
                     "win": 0,
@@ -285,12 +313,13 @@
                     "gd": 0,
                     "points": 0
                 }
-            }
+            ]
         },
         {
             "groupName": "H",
-            "entry": {
-                "ghana": {
+            "entry": [
+                {
+                    "name": "ghana",
                     "abb": "GHA",
                     "play": 0,
                     "win": 0,
@@ -299,7 +328,8 @@
                     "gd": 0,
                     "points": 0
                 },
-                "korea": {
+                {
+                    "name": "korea",
                     "abb": "KOR",
                     "play": 0,
                     "win": 0,
@@ -308,7 +338,8 @@
                     "gd": 0,
                     "points": 0
                 },
-                "portugal": {
+                {
+                    "name": "portugal",
                     "abb": "POR",
                     "play": 0,
                     "win": 0,
@@ -317,7 +348,8 @@
                     "gd": 0,
                     "points": 0
                 },
-                "uruguay": {
+                {
+                    "name": "uruguay",
                     "abb": "URU",
                     "play": 0,
                     "win": 0,
@@ -326,7 +358,7 @@
                     "gd": 0,
                     "points": 0
                 }
-            }
+            ]
         }        
     ],
     "matchData": {
@@ -345,7 +377,8 @@
                 "group": "A",
                 "time": "01:00",
                 "date": "2022.11.21",
-                "finish": true
+                "finish": true,
+                "id": 1
             },
             {
                 "teams": {
@@ -361,7 +394,8 @@
                 "group": "B",
                 "time": "22:00",
                 "date": "2022.11.21",
-                "finish": false
+                "finish": false,
+                "id": 2
             },
 
             {
@@ -378,7 +412,8 @@
                 "group": "A",
                 "time": "01:00",
                 "date": "2022.11.22",
-                "finish": false
+                "finish": false,
+                "id": 3
             },
             {
                 "teams": {
@@ -394,7 +429,8 @@
                 "group": "B",
                 "time": "04:00",
                 "date": "2022.11.22",
-                "finish": false
+                "finish": false,
+                "id": 4
             },
             {
                 "teams": {
@@ -410,7 +446,8 @@
                 "group": "C",
                 "time": "19:00",
                 "date": "2022.11.22",
-                "finish": false
+                "finish": false,
+                "id": 5
             },
             {
                 "teams": {
@@ -426,7 +463,8 @@
                 "group": "D",
                 "time": "22:00",
                 "date": "2022.11.22",
-                "finish": false
+                "finish": false,
+                "id": 6
             },
 
             {
@@ -443,7 +481,8 @@
                 "group": "C",
                 "time": "01:00",
                 "date": "2022.11.23",
-                "finish": false
+                "finish": false,
+                "id": 7
             },
             {
                 "teams": {
@@ -459,7 +498,8 @@
                 "group": "D",
                 "time": "04:00",
                 "date": "2022.11.23",
-                "finish": false
+                "finish": false,
+                "id": 8
             },
             {
                 "teams": {
@@ -475,7 +515,8 @@
                 "group": "F",
                 "time": "19:00",
                 "date": "2022.11.23",
-                "finish": false
+                "finish": false,
+                "id": 9
             },
             {
                 "teams": {
@@ -491,7 +532,8 @@
                 "group": "E",
                 "time": "22:00",
                 "date": "2022.11.23",
-                "finish": false
+                "finish": false,
+                "id": 10
             },
 
             {
@@ -508,7 +550,8 @@
                 "group": "E",
                 "time": "01:00",
                 "date": "2022.11.24",
-                "finish": false
+                "finish": false,
+                "id": 11
             },
             {
                 "teams": {
@@ -524,7 +567,8 @@
                 "group": "F",
                 "time": "04:00",
                 "date": "2022.11.24",
-                "finish": false
+                "finish": false,
+                "id": 12
             },
             {
                 "teams": {
@@ -540,7 +584,8 @@
                 "group": "G",
                 "time": "19:00",
                 "date": "2022.11.24",
-                "finish": false
+                "finish": false,
+                "id": 13
             },
             {
                 "teams": {
@@ -556,7 +601,8 @@
                 "group": "H",
                 "time":  "22:00",
                 "date": "2022.11.24",
-                "finish": false
+                "finish": false,
+                "id": 14
             },
 
             {
@@ -573,7 +619,8 @@
                 "group": "H",
                 "time": "01:00",
                 "date": "2022.11.25",
-                "finish": false
+                "finish": false,
+                "id": 15
             },
             {
                 "teams": {
@@ -589,7 +636,8 @@
                 "group": "G",
                 "time": "04:00",
                 "date": "2022.11.25",
-                "finish": false
+                "finish": false,
+                "id": 16
             },
             {
                 "teams": {
@@ -605,7 +653,8 @@
                 "group": "B",
                 "time": "19:00",
                 "date": "2022.11.25",
-                "finish": false
+                "finish": false,
+                "id": 17
             },
             {
                 "teams": {
@@ -621,7 +670,8 @@
                 "group": "A",
                 "time": "22:00",
                 "date": "2022.11.25",
-                "finish": false
+                "finish": false,
+                "id": 18
             },
             
             {
@@ -638,7 +688,8 @@
                 "group": "A",
                 "time": "01:00",
                 "date": "2022.11.26",
-                "finish": false
+                "finish": false,
+                "id": 19
             },
             {
                 "teams": {
@@ -654,7 +705,8 @@
                 "group": "B",
                 "time": "04:00",
                 "date": "2022.11.26",
-                "finish": false
+                "finish": false,
+                "id": 20
             },
             {
                 "teams": {
@@ -670,7 +722,8 @@
                 "group": "D",
                 "time": "19:00",
                 "date": "2022.11.26",
-                "finish": false
+                "finish": false,
+                "id": 21
             },
             {
                 "teams": {
@@ -686,7 +739,8 @@
                 "group": "C",
                 "time": "22:00",
                 "date": "2022.11.26",
-                "finish": false
+                "finish": false,
+                "id": 22
             },
             
             {
@@ -703,7 +757,8 @@
                 "group": "D",
                 "time": "01:00",
                 "date": "2022.11.27",
-                "finish": false
+                "finish": false,
+                "id": 23
             },
             {
                 "teams": {
@@ -719,7 +774,8 @@
                 "group": "C",
                 "time": "04:00",
                 "date": "2022.11.27",
-                "finish": false
+                "finish": false,
+                "id": 24
             },
             {
                 "teams": {
@@ -735,7 +791,8 @@
                 "group": "E",
                 "time": "19:00",
                 "date": "2022.11.27",
-                "finish": false
+                "finish": false,
+                "id": 25
             },
             {
                 "teams": {
@@ -751,7 +808,8 @@
                 "group": "F",
                 "time": "22:00",
                 "date": "2022.11.27",
-                "finish": false
+                "finish": false,
+                "id": 26
             },
 
             {
@@ -768,7 +826,8 @@
                 "group": "F",
                 "time": "01:00",
                 "date": "2022.11.28",
-                "finish": false
+                "finish": false,
+                "id": 27
             },
             {
                 "teams": {
@@ -784,7 +843,8 @@
                 "group": "E",
                 "time": "04:00",
                 "date": "2022.11.28",
-                "finish": false
+                "finish": false,
+                "id": 28
             },
             {
                 "teams": {
@@ -800,7 +860,8 @@
                 "group": "G",
                 "time": "19:00",
                 "date": "2022.11.28",
-                "finish": false
+                "finish": false,
+                "id": 29
             },
             {
                 "teams": {
@@ -816,7 +877,8 @@
                 "group": "A",
                 "time": "22:00",
                 "date": "2022.11.28",
-                "finish": false
+                "finish": false,
+                "id": 30
             },
 
             {
@@ -833,7 +895,8 @@
                 "group": "G",
                 "time": "01:00",
                 "date": "2022.11.29",
-                "finish": false
+                "finish": false,
+                "id": 31
             },
             {
                 "teams": {
@@ -849,7 +912,8 @@
                 "group": "H",
                 "time": "04:00",
                 "date": "2022.11.29",
-                "finish": false
+                "finish": false,
+                "id": 32
             },
 
             {
@@ -866,7 +930,8 @@
                 "group": "A",
                 "time": "00:00",
                 "date": "2022.11.30",
-                "finish": false
+                "finish": false,
+                "id": 33
             },
             {
                 "teams": {
@@ -882,7 +947,8 @@
                 "group": "A",
                 "time": "00:00",
                 "date": "2022.11.30",
-                "finish": false
+                "finish": false,
+                "id": 34
             },
             {
                 "teams": {
@@ -898,7 +964,8 @@
                 "group": "B",
                 "time": "04:00",
                 "date": "2022.11.30",
-                "finish": false
+                "finish": false,
+                "id": 35
             },
             {
                 "teams": {
@@ -914,7 +981,8 @@
                 "group": "B",
                 "time": "04:00",
                 "date": "2022.11.30",
-                "finish": false
+                "finish": false,
+                "id": 36
             },
 
             {
@@ -931,7 +999,8 @@
                 "group": "D",
                 "time": "01:00",
                 "date": "2022.12.01",
-                "finish": false
+                "finish": false,
+                "id": 37
             },
             {
                 "teams": {
@@ -947,7 +1016,8 @@
                 "group": "D",
                 "time": "01:00",
                 "date": "2022.12.01",
-                "finish": false
+                "finish": false,
+                "id": 38
             },
             {
                 "teams": {
@@ -963,7 +1033,8 @@
                 "group": "C",
                 "time": "04:00",
                 "date": "2022.12.01",
-                "finish": false
+                "finish": false,
+                "id": 39
             },
             {
                 "teams": {
@@ -979,7 +1050,8 @@
                 "group": "C",
                 "time": "04:00",
                 "date": "2022.12.01",
-                "finish": false
+                "finish": false,
+                "id": 40
             },
 
             {
@@ -996,7 +1068,8 @@
                 "group": "F",
                 "time": "00:00",
                 "date": "2022.12.02",
-                "finish": false
+                "finish": false,
+                "id": 41
             },
             {
                 "teams": {
@@ -1012,7 +1085,8 @@
                 "group": "F",
                 "time": "00:00",
                 "date": "2022.12.02",
-                "finish": false
+                "finish": false,
+                "id": 42
             },
             {
                 "teams": {
@@ -1028,7 +1102,8 @@
                 "group": "E",
                 "time": "04:00",
                 "date": "2022.12.02",
-                "finish": false
+                "finish": false,
+                "id": 43
             },
             {
                 "teams": {
@@ -1044,7 +1119,8 @@
                 "group": "E",
                 "time": "04:00",
                 "date": "2022.12.02",
-                "finish": false
+                "finish": false,
+                "id": 44
             },
 
             {
@@ -1061,7 +1137,8 @@
                 "group": "H",
                 "time": "00:00",
                 "date": "2022.11.03",
-                "finish": false
+                "finish": false,
+                "id": 45
             },
             {
                 "teams": {
@@ -1077,7 +1154,8 @@
                 "group": "H",
                 "time": "00:00",
                 "date": "2022.11.25",
-                "finish": false
+                "finish": false,
+                "id": 46
             },
             {
                 "teams": {
@@ -1093,7 +1171,8 @@
                 "group": "G",
                 "time": "04:00",
                 "date": "2022.12.02",
-                "finish": false
+                "finish": false,
+                "id": 47
             },
             {
                 "teams": {
@@ -1109,7 +1188,8 @@
                 "group": "G",
                 "time": "04:00",
                 "date": "2022.12.02",
-                "finish": false
+                "finish": false,
+                "id": 48
             }
         ],
         "tournament": {
@@ -1127,7 +1207,8 @@
                     },
                     "time": "00:00",
                     "date": "2022.12.04",
-                    "finish": false
+                    "finish": false,
+                    "id": 49
                 },
                 {
                     "teams": {
@@ -1142,7 +1223,8 @@
                     },
                     "time": "04:00",
                     "date": "2022.12.04",
-                    "finish": false
+                    "finish": false,
+                    "id": 59
                 },
                 {
                     "teams": {
@@ -1157,7 +1239,8 @@
                     },
                     "time": "00:00",
                     "date": "2022.12.05",
-                    "finish": false
+                    "finish": false,
+                    "id": 60
                 },
                 {
                     "teams": {
@@ -1172,7 +1255,8 @@
                     },
                     "time": "04:00",
                     "date": "2022.12.05",
-                    "finish": false
+                    "finish": false,
+                    "id": 61
                 },
                 {
                     "teams": {
@@ -1187,7 +1271,8 @@
                     },
                     "time": "00:00",
                     "date": "2022.12.06",
-                    "finish": false
+                    "finish": false,
+                    "id": 62
                 },
                 {
                     "teams": {
@@ -1202,7 +1287,8 @@
                     },
                     "time": "04:00",
                     "date": "2022.12.06",
-                    "finish": false
+                    "finish": false,
+                    "id": 63
                 },
                 {
                     "teams": {
@@ -1217,7 +1303,8 @@
                     },
                     "time": "00:00",
                     "date": "2022.12.07",
-                    "finish": false
+                    "finish": false,
+                    "id": 64
                 },
                 {
                     "teams": {
@@ -1232,7 +1319,8 @@
                     },
                     "time": "04:00",
                     "date": "2022.12.07",
-                    "finish": false
+                    "finish": false,
+                    "id": 65
                 }
             ],
             "quarterFinal": [
@@ -1249,7 +1337,8 @@
                     },
                     "time": "00:00",
                     "date": "2022.12.10",
-                    "finish": false
+                    "finish": false,
+                    "id": 66
                 },
                 {
                     "teams": {
@@ -1264,7 +1353,8 @@
                     },
                     "time": "04:00",
                     "date": "2022.12.10",
-                    "finish": false
+                    "finish": false,
+                    "id": 67
                 },
                 {
                     "teams": {
@@ -1279,7 +1369,8 @@
                     },
                     "time": "00:00",
                     "date": "2022.12.11",
-                    "finish": false
+                    "finish": false,
+                    "id": 68
                 },
                 {
                     "teams": {
@@ -1294,7 +1385,8 @@
                     },
                     "time": "04:00",
                     "date": "2022.12.11",
-                    "finish": false
+                    "finish": false,
+                    "id": 69
                 }
             ],
             "semiFinal": [
@@ -1311,7 +1403,8 @@
                     },
                     "time": "04:00",
                     "date": "2022.12.14",
-                    "finish": false
+                    "finish": false,
+                    "id": 70
                 },
                 {
                     "teams": {
@@ -1326,7 +1419,8 @@
                     },
                     "time": "04:00",
                     "date": "2022.12.15",
-                    "finish": false
+                    "finish": false,
+                    "id": 71
                 }
             ],
             "final": {
@@ -1342,7 +1436,8 @@
                 },
                 "time": "00:00",
                 "date": "2022.12.18",
-                "finish": false
+                "finish": false,
+                "id": 72
             }
         }
     }

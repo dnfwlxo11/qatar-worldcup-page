@@ -15,15 +15,12 @@ function App() {
             <Routes>
                 <Route element={<Layout />}>
                     <Route path="/" element={<MainPage />} />
-                    <Route path="/match" element={<MatchPage />}>
-                        <Route path=":id" element={<Match />} />
-                    </Route>
-                    <Route path="/team" element={<TeamPage />}>
-                        <Route path=":id" element={<Team />} />
-                    </Route>
-                    <Route path="/group" element={<GroupPage />}>
-                        <Route path=":id" element={<Group />} />
-                    </Route>
+                    <Route path="/match" element={<MatchPage />} />
+                    <Route path="/match/:id" element={<Match />} />
+                    <Route path="/team" element={<TeamPage />} />
+                    <Route path=":id" element={<Team />} />
+                    <Route path="/group" element={<GroupPage />} />
+                    <Route path=":id" element={<Group />} />
                 </Route>
             </Routes>
         </Router>

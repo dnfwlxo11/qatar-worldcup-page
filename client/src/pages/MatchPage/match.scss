@@ -1,0 +1,59 @@
+.logo-div {
+    text-align: center;
+}
+
+.logo2 {
+    height: 120px;
+}
+
+.match-div {
+    margin-bottom: 20px;
+
+    & .match-schedule {
+        margin-bottom: 20px;
+        display: flex;
+
+        & .groupInfor {
+            margin-right: auto;
+        }
+
+        & .match-time {
+            margin-left: auto;
+        }
+    }
+
+    & .match-infor {
+        margin-bottom: 20px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        & .left-team {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+            & .flag {
+                margin: 0 20px 0 20px;
+            }
+        }
+
+        & .right-team {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+            & .flag {
+                margin: 0 20px 0 20px;
+            }
+        }
+    }
+
+    & .flag {
+        display: flex;
+        width: 80px;
+        height: 60px;
+        border: 1px solid #BF9B30;
+    }
+}
+
