@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import Utils from 'utils';
 import { useParams } from 'react-router-dom';
-import './match.scss';
+import './match.scoped.scss';
 
 function Match(props) {
     const { id } = useParams();
@@ -13,10 +13,6 @@ function Match(props) {
         teams: [],
     });
 
-    const getTargetMatch = function (matchs) {
-        setTargetMatch(matchs.groupStage.filter((item) => item.id.toString() === id)[0]);
-    }
-
     useEffect(() => {
         let complete = false;
 
@@ -24,7 +20,7 @@ function Match(props) {
             const response = await Utils.axios.get('/datas/match.json');
 
             if (!complete) {
-                getTargetMatch(response.data.matchData)
+                setTargetMatch(response.data.matchData.groupStage.filter((item) => item.id.toString() === id)[0]);
             }
         }
 

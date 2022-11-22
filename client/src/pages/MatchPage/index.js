@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import Utils from 'utils';
-import './index.scss';
+import './index.scoped.scss';
 
 import MatchCard from 'components/matchCard';
 
@@ -28,7 +28,7 @@ function Index(props) {
                 <div className='title'>
                     <strong>
                         Match
-                    </strong>    
+                    </strong>
                 </div>
                 <div className='content'>
                     {matchData.groupStage && matchData.groupStage.map((match, idx) => {

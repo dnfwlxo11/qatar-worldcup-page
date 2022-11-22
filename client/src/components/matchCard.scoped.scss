@@ -1,23 +1,12 @@
 .card {
     padding: 15px;
-    border-radius: 0.25rem;
+    border-radius: 0.5rem;
     background: #FFF;
+    // margin-bottom: 20px;
 
     &:hover {
         border: 1px solid #BF9B30;
         cursor: pointer;
-    }
-
-    &-2 {
-        width: 50%;
-    }
-    
-    &-3 {
-        width: 33%;
-    }
-
-    &-4 {
-        width: 25%;
     }
 
     & .match-infor {

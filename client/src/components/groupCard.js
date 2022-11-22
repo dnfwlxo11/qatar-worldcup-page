@@ -1,5 +1,5 @@
 import React, { useState, useEffect, useMemo } from 'react';
-import './groupCard.scss'
+import './groupCard.scoped.scss'
 
 function GroupCard(props) {
     const [isSorted, setIsSorted] = useState(false);
@@ -36,7 +36,7 @@ function GroupCard(props) {
     }, [props.group]);
 
     return (
-        <div className='card card-2'>
+        <div className='card'>
             <table>
                 <thead>
                     <tr>
@@ -59,7 +59,14 @@ function GroupCard(props) {
                                         <img className='flag' src={`/assets/flags/${group.entry[country].name}.png`} alt="" />    
                                     </div>
                                     <div className='country-name'>
-                                        <strong>{group.entry[country].abb}</strong>    
+                                        <strong
+                                            style={{ 
+                                                'display': 'flex',
+                                                'justifyContent': 'center',
+                                                'alignItems': 'center'
+                                            }}>
+                                            {group.entry[country].abb}
+                                        </strong>    
                                     </div>
                                 </td>
                                 <td>{group.entry[country].play}</td>

@@ -5,24 +5,22 @@
         float: left;
         width: inherit;
         z-index: 1;
+        margin-bottom: 20px;
         // object-fit: fill;
         // background-size: contain;
     }
 
     & .news-content {
-        width: inherit;
-        height: inherit;
+        position: absolute;
         color: #FFF;
-        font-size: 40px;
-        z-index: 2;
+        padding: 20px;
 
         & .title {
-            height: inherit;
-            padding: 20px;
+            font-size: 40px;
         }
 
         & .content {
-            position: absolute;
+            font-size: 30px;
         }
     }
 }

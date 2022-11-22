@@ -9,6 +9,8 @@ import Group from './pages/GroupPage/group';
 import MatchPage from './pages/MatchPage';
 import Match from './pages/MatchPage/match';
 
+import './App.scss'
+
 function App() {
     return (
         <Router>

@@ -1,21 +1,8 @@
 .card {
     padding: 10px;
-    margin: 5px;
-    border-radius: 0.25rem;
+    border-radius: 0.5rem;
     background: #FFF;
     border-bottom: solid lightgrey 1px;
-
-    &-2 {
-        width: 50%;
-    }
-
-    &-3 {
-        width: 33%;
-    }
-
-    &-4 {
-        width: 25%;
-    }
 
     table {
         height: inherit;
