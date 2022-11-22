@@ -6,12 +6,13 @@ function MatchCard(props) {
     const match = props.match;
     const navigate = useNavigate();
 
-    function onClickMatchCard(id) {
-        navigate(`/match/${id}`);
+    function onClickMatchCard(e) {
+        e.preventDefault();
+        navigate(`/match/${match.id}`);
     }
 
     return (
-        <div className='card' onClick={onClickMatchCard(match.id)}>
+        <div className='card' onClick={onClickMatchCard}>
             <div className='match-infor'>
                 <div className='match-stat'>
                     Group {match.group}
