@@ -1,11 +1,21 @@
 import React, { useEffect, useState } from 'react';
+import { useMediaQuery } from 'react-responsive';
 import Utils from 'utils';
 import './index.scoped.scss';
 
 import MatchCard from 'components/matchCard';
+import { FaSpinner } from 'react-icons/fa';
 
 function Index(props) {
-    const [matchData, setMatchData] = useState({});
+    const isFull = useMediaQuery({
+        query: '(min-width: 1280px)'
+    });
+
+    const isHalf = useMediaQuery({
+        query: '(min-width:960px) and (max-width:1280px)'
+    });
+
+    const [matchData, setMatchData] = useState(null);
 
     useEffect(() => {
         let complete = false;
@@ -14,7 +24,17 @@ function Index(props) {
             const response = await Utils.axios.get('/datas/match.json');
 
             if (!complete) {
-                setMatchData(response.data.matchData);
+                const matchDataByDate = response.data.matchData.groupStage.reduce((acc, item, idx) => {
+                    if (!acc.hasOwnProperty(item.date)) {
+                        acc[item.date] = [item];
+                    } else {
+                        acc[item.date].push(item)
+                    }
+
+                    return acc;
+                }, {})
+
+                setMatchData(matchDataByDate);
             }
         }
 
@@ -24,18 +44,31 @@ function Index(props) {
 
     return (
         <div>
-            <div className='container'>
+            {matchData ? <div className='container'>
                 <div className='title'>
                     <strong>
-                        Match
+                        Matchs
                     </strong>
                 </div>
-                <div className='content'>
-                    {matchData.groupStage && matchData.groupStage.map((match, idx) => {
-                        return <MatchCard key={idx} match={match}></MatchCard> 
-                    })}
-                </div>
+                {Object.keys(matchData).length && Object.keys(matchData).map((date, idx) => {
+                    return <div key={idx} style={{ 'marginBottom': '30px' }}>
+                        <div style={{
+                            'marginBottom': '10px',
+                            'fontSize': '17px'
+                        }}>
+                            <strong>{date}</strong>
+                        </div>
+                        <div className={`matchs matchs${isFull ? '-1' : isHalf ? '-2' : '-3'}`}>
+                            {matchData[date].map((match, idx) => {
+                                return <MatchCard key={idx} match={match}></MatchCard> 
+                            })}
+                        </div>
+                    </div>
+                })}
             </div>
+            : <div className='loading'>
+                <FaSpinner icon="spinner" className="spinner" />
+            </div>}
         </div>
     );
 }

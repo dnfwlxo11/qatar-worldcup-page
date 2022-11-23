@@ -17,11 +17,11 @@ function App() {
             <Routes>
                 <Route element={<Layout />}>
                     <Route path="/" element={<MainPage />} />
-                    <Route path="/match" element={<MatchPage />} />
+                    <Route path="/matchs" element={<MatchPage />} />
                     <Route path="/match/:id" element={<Match />} />
-                    <Route path="/team" element={<TeamPage />} />
+                    <Route path="/teams" element={<TeamPage />} />
                     <Route path=":id" element={<Team />} />
-                    <Route path="/group" element={<GroupPage />} />
+                    <Route path="/groups" element={<GroupPage />} />
                     <Route path=":id" element={<Group />} />
                 </Route>
             </Routes>

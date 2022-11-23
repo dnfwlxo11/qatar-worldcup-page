@@ -9,15 +9,15 @@ function navbar() {
                 <img src="/assets/qatar_logo.png" alt="카타르 월드컵 로고" />    
             </NavLink>
             <div className='nav-menus'>
-                <NavLink className='menu' to="/match">
+                <NavLink className='menu' to="/matchs">
                     <strong>Match</strong>
                 </NavLink>
                 <span className='separator'>|</span>
-                <NavLink className='menu' to="/group">
+                <NavLink className='menu' to="/groups">
                     <strong>Group</strong>
                 </NavLink>
                 <span className='separator'>|</span>
-                <NavLink className='menu' to="/team">
+                <NavLink className='menu' to="/teams">
                     <strong>Team</strong>
                 </NavLink>
             </div>

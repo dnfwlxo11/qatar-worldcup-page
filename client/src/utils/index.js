@@ -1,5 +1,10 @@
 import axios from './axios';
+import dateUtils from './dateFns';
 
-export default {
-    axios: axios
+const Utils = {
+    axios,
+    dateUtils
 }
+
+export { axios, dateUtils }
+export default Utils;
