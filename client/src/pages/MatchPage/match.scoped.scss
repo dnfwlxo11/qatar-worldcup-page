@@ -1,59 +1,80 @@
-.logo-div {
-    text-align: center;
-}
+.container {
+    height: calc(100vh - 80px - 60px - 60px);
 
-.logo2 {
-    height: 120px;
-}
-
-.match-div {
-    margin-bottom: 20px;
-
-    & .match-schedule {
-        margin-bottom: 20px;
-        display: flex;
-
-        & .groupInfor {
-            margin-right: auto;
-        }
-
-        & .match-time {
-            margin-left: auto;
-        }
+    .logo-div {
+        text-align: center;
     }
-
-    & .match-infor {
+    
+    .logo2 {
+        height: 120px;
+    }
+    
+    .match-div {
         margin-bottom: 20px;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-
-        & .left-team {
+    
+        & .match-schedule {
+            margin-bottom: 20px;
+            display: flex;
+    
+            & .groupInfor {
+                margin-right: auto;
+            }
+    
+            & .match-time {
+                margin-left: auto;
+            }
+        }
+    
+        & .match-infor {
+            margin-bottom: 20px;
             display: flex;
             justify-content: center;
             align-items: center;
-
-            & .flag {
-                margin: 0 20px 0 20px;
+    
+            & .left-team {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+    
+                & .flag {
+                    margin: 0 20px 0 20px;
+                }
+            }
+    
+            & .right-team {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+    
+                & .flag {
+                    margin: 0 20px 0 20px;
+                }
             }
         }
-
-        & .right-team {
+    
+        & .flag {
             display: flex;
-            justify-content: center;
-            align-items: center;
-
-            & .flag {
-                margin: 0 20px 0 20px;
+            width: 80px;
+            height: 60px;
+            border: 1px solid #BF9B30;
+        }
+    
+        & .badge {
+            padding: 1px 10px 1px 10px;
+            font-weight: 700;
+            border-radius: 0.5rem;
+    
+            &-before {
+                border: 3px solid lightgrey;
+                background: #FFF;
+                color: lightgrey;    
+            }  
+    
+            &-after {
+                border: 3px solid lightcoral;
+                background: #FFF;
+                color: lightcoral;    
             }
         }
-    }
-
-    & .flag {
-        display: flex;
-        width: 80px;
-        height: 60px;
-        border: 1px solid #BF9B30;
     }
 }
-

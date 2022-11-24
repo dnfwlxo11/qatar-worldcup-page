@@ -1,0 +1,102 @@
+.container {
+    height: calc(100vh - 80px - 60px - 60px);
+    overflow-y: auto;
+
+    & .card {
+        padding: 15px;
+        border-radius: 0.5rem;
+        background: #FFF;
+
+        & .card-top {
+            display: flex;
+            font-size: 20px;
+            font-weight: 600;
+            margin: 0 0 30px 0;
+
+            & .menu {
+                margin: 5px;
+            }
+        }
+
+        & .card-nav {
+            display: flex;
+            margin-bottom: 20px;
+
+            & .arrow-btn {
+                width: 15px;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+
+                &:hover {
+                    cursor: pointer;
+                }
+            }
+
+            & .card-menu {
+                margin-left: auto;
+                margin-right: auto;
+                text-align: center;
+
+                &::-webkit-scrollbar {
+                    display: none;
+                }
+
+                display: flex;
+                overflow-x: scroll;
+                flex-wrap: nowrap;
+                max-width: calc(100% - 15px - 15px - 20px);
+                scroll-behavior: smooth;
+                scroll-margin-block: end;
+
+                & .menu {
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    width: auto;
+                    flex: 0 0 auto;
+                    margin: 0 10px 0 10px;
+                    text-overflow: ellipsis;
+                    background: inherit;
+
+                    &:hover {
+                        cursor: pointer;
+                    }
+                }
+
+                & .active {
+                    font-weight: 600px;
+                    border-radius: 0.2rem;
+                    color: #FFF;
+                    padding: 3px 5px 3px 5px;
+                    background: lightgrey;
+                }
+            }
+        }
+
+        & .card-content {
+            & .card:hover {
+                border: inherit;
+                cursor: default;
+            }
+        }
+    }
+}
+
+.loading {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 50px;
+    height: calc(100vh - 80px - 60px);
+
+    & .spinner {
+        animation: infinite_spin 3s linear infinite;
+    }
+}
+
+@keyframes infinite_spin {
+    100% {
+        transform: rotate(360deg);
+    }
+}

@@ -33,3 +33,21 @@
         font-size: 30px;
     }
 }
+
+.loading {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 50px;
+    height: calc(100vh - 80px - 60px);
+
+    & .spinner {
+        animation: infinite_spin 3s linear infinite;
+    }
+}
+
+@keyframes infinite_spin {
+    100% {
+        transform: rotate(360deg);
+    }
+}
