@@ -4,11 +4,14 @@ import { FaSpinner } from 'react-icons/fa';
 import axios from 'axios';
 import './index.scoped.scss';
 
+import MatchCard from 'components/matchCard';
 import GroupCard from 'components/groupCard';
 
 function Index(props) {
+    const [matchData, setMatchData] = useState(null);
     const [groupData, setGroupData] = useState(null);
     const [currGroup, setCurrGroup] = useState('A')
+    const [currGroupMatchs, setCurrGroupMatchs] = useState(null);
     const scrollBar = useRef();
 
     useEffect(() => {
@@ -24,8 +27,26 @@ function Index(props) {
                     return acc;
                 }, {})
 
+                const matchs = response.data.matchData.groupStage;
+
+                setMatchData(matchs);
                 setGroupData(groupDataByGroup);
-                console.log(groupDataByGroup)
+
+                setCurrGroupMatchs(matchs.reduce((acc, item, idx) => {
+                    if (item.group === currGroup) acc.push(item);
+    
+                    return acc;
+                }, [])
+                .reduce((acc, item, idx) => {
+                    if (!acc.hasOwnProperty(item.date)) {
+                        acc[item.date] = [item];
+                    } else {
+                        acc[item.date].push(item)
+                    }
+    
+                    return acc;
+                }, {})
+            );
             }
         }
 
@@ -38,6 +59,23 @@ function Index(props) {
 
     const onClickGroup = (group) => {
         setCurrGroup(group);
+
+        setCurrGroupMatchs(
+            matchData.reduce((acc, item, idx) => {
+                if (item.group === group) acc.push(item);
+
+                return acc;
+            }, [])
+            .reduce((acc, item, idx) => {
+                if (!acc.hasOwnProperty(item.date)) {
+                    acc[item.date] = [item];
+                } else {
+                    acc[item.date].push(item)
+                }
+
+                return acc;
+            }, {})
+        );
     }
 
     return (
@@ -61,16 +99,26 @@ function Index(props) {
                             <AiOutlineDoubleRight />
                         </div>
                     </div>
+                    <hr style={{ 'border': '1px solid lightgrey' }} />
                     <div className='card-content'>
-                        {Object.keys(groupData).map((group, idx) => {
-                            return <GroupCard key={idx} group={groupData[group]}></GroupCard>
-                        })}
+                        <div style={{ 'marginBottom': '40px' }}>
+                            {Object.keys(groupData).map((group, idx) => {
+                                return group === currGroup &&
+                                    <GroupCard key={idx} group={groupData[group]}></GroupCard>
+                            })}    
+                        </div>
+                        <div>
+                            {currGroupMatchs && Object.keys(currGroupMatchs).map((date, idx) => {
+                                return currGroupMatchs[date].map((match, idx) => {
+                                    return <MatchCard className='matchCard' key={idx} match={match}></MatchCard> 
+                                })
+                            })}
+                        </div>
                     </div>
                 </div>
                 : <div className='loading'>
                     <FaSpinner icon="spinner" className="spinner" />
                 </div>}
-                
             </div>
         </div>
     );

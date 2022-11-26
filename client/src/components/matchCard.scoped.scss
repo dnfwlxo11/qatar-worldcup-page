@@ -1,13 +1,8 @@
-.card {
+.matchCard {
     padding: 15px;
     border-radius: 0.5rem;
     background: #FFF;
     // margin-bottom: 20px;
-
-    &:hover {
-        border: 1px solid #BF9B30;
-        cursor: pointer;
-    }
 
     & .match-infor {
         display: flex;

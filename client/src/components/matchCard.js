@@ -13,7 +13,7 @@ function MatchCard(props) {
     }
 
     return (
-        <div className='card' onClick={onClickMatchCard}>
+        <div className='matchCard' onClick={onClickMatchCard}>
             <div className='match-infor'>
                 <div className='match-stat'>
                     Group {match.group}

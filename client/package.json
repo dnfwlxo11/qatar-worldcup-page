@@ -150,8 +150,8 @@
     ]
   },
   "devDependencies": {
+    "scoped-css-loader": "^1.0.0",
     "babel-plugin-react-scoped-css": "^1.1.1",
-    "babel-preset-mobx": "^2.0.0",
-    "scoped-css-loader": "^1.0.0"
+    "babel-preset-mobx": "^2.0.0"
   }
 }

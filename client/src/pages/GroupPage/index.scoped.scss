@@ -2,6 +2,10 @@
     height: calc(100vh - 80px - 60px - 60px);
     overflow-y: auto;
 
+    & .matchCard, .groupCard {
+        border: 1px solid lightgrey;
+    }
+
     & .card {
         padding: 15px;
         border-radius: 0.5rem;
@@ -14,6 +18,7 @@
             margin: 0 0 30px 0;
 
             & .menu {
+                display: inline-block;
                 margin: 5px;
             }
         }
@@ -36,7 +41,6 @@
             & .card-menu {
                 margin-left: auto;
                 margin-right: auto;
-                text-align: center;
 
                 &::-webkit-scrollbar {
                     display: none;
@@ -53,11 +57,11 @@
                     display: flex;
                     justify-content: center;
                     align-items: center;
-                    width: auto;
+                    width: 70px;
                     flex: 0 0 auto;
-                    margin: 0 10px 0 10px;
-                    text-overflow: ellipsis;
                     background: inherit;
+                    margin: 3px 5px 3px 5px;
+                    padding: 3px 5px 3px 5px;
 
                     &:hover {
                         cursor: pointer;
@@ -68,17 +72,13 @@
                     font-weight: 600px;
                     border-radius: 0.2rem;
                     color: #FFF;
-                    padding: 3px 5px 3px 5px;
                     background: lightgrey;
                 }
             }
         }
 
         & .card-content {
-            & .card:hover {
-                border: inherit;
-                cursor: default;
-            }
+
         }
     }
 }

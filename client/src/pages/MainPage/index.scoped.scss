@@ -1,7 +1,13 @@
 .container {
+    & .matchCard:hover, .groupCard:hover {
+        border: 1px solid #BF9B30;
+        cursor: pointer;
+        opacity: 0.7;
+    }
+
     & .matchs {
         display: grid;
-        
+
         &-1 {
             grid-column: 1;
             grid-template-columns: repeat(1, 1fr);

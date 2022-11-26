@@ -50,8 +50,6 @@ function Index(props) {
                     return acc;
                 }, {})
 
-                console.log(matchDataByDate)
-
                 setMatchData(matchDataByDate);
                 setGroupData(response.data.groupData);
             }
@@ -90,7 +88,7 @@ function Index(props) {
                             </div>
                             <div className={`matchs matchs${isFull ? '-1' : isHalf ? '-2' : '-3'}`}>
                                 {date === dateUtils.dateFormat(new Date(), 'yyyy.MM.dd') && matchData[date].map((match, idx) => {
-                                    return <MatchCard key={idx} match={match}></MatchCard> 
+                                    return <MatchCard className='matchCard' key={idx} match={match}></MatchCard> 
                                 })}
                             </div>
                         </div>
@@ -114,7 +112,7 @@ function Index(props) {
                     <hr style={{ 'marginBottom': '20px' }} />
                     <div className={`groups groups${isFull ? '-2' : '-1'}`}>
                         {groupData.length && groupData.map((group, idx) => {
-                            return <GroupCard key={idx} group={group}></GroupCard>
+                            return <GroupCard className='groupCard' key={idx} group={group}></GroupCard>
                         })}
                     </div>
                 </div>

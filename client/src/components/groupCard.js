@@ -36,7 +36,7 @@ function GroupCard(props) {
     }, [props.group]);
 
     return (
-        <div className='card'>
+        <div className='groupCard'>
             <table>
                 <thead>
                     <tr>

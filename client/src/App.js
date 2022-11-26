@@ -5,7 +5,6 @@ import MainPage from './pages/MainPage';
 import TeamPage from './pages/TeamPage';
 import Team from './pages/TeamPage/team';
 import GroupPage from './pages/GroupPage';
-import Group from './pages/GroupPage/group';
 import MatchPage from './pages/MatchPage';
 import Match from './pages/MatchPage/match';
 
@@ -20,9 +19,8 @@ function App() {
                     <Route path="/matchs" element={<MatchPage />} />
                     <Route path="/match/:id" element={<Match />} />
                     <Route path="/teams" element={<TeamPage />} />
-                    <Route path=":id" element={<Team />} />
+                    <Route path="/team/id" element={<Team />} />
                     <Route path="/groups" element={<GroupPage />} />
-                    <Route path=":id" element={<Group />} />
                 </Route>
             </Routes>
         </Router>

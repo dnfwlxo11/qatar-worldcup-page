@@ -1,4 +1,8 @@
 .container {
+    & .matchCard, .groupCard {
+        border: 1px solid lightgrey;
+    }
+
     & .matchs {
         display: grid;
         
