@@ -1,7 +1,7 @@
 import React from 'react';
 import { useNavigate } from 'react-router-dom';
 
-import './matchCard.scoped.scss';
+import './matchCard.scss';
 
 function MatchCard(props) {
     const match = props.match;

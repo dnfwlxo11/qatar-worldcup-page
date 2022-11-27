@@ -3,7 +3,7 @@ import { useMediaQuery } from 'react-responsive';
 import { useNavigate } from 'react-router-dom';
 
 import { axios, dateUtils } from 'utils';
-import './index.scoped.scss';
+import './index.scss';
 
 import MainNews from './mainNews';
 import MatchCard from 'components/matchCard';
@@ -64,58 +64,61 @@ function Index(props) {
                 <MainNews></MainNews>
             </div>
             <div className='container'>
-                <div style={{ 'marginBottom': '40px' }}>
-                    <div className='title'>
-                        <div style={{ 'display': 'flex '}}>
-                            <div style={{ 'marginRight': 'auto' }}>
-                                <strong style={{ 'fontSize': '30px' }}>
-                                    Match
-                                </strong>
-                            </div>
-                            <div style={{ 'marginLeft': 'auto', 'display': 'flex', 'alignItems': 'center' }}>
-                                <span className='matchs-btn' onClick={onClickMatchs}>
-                                    detail
-                                </span>
-                            </div>
-                        </div>
-                    </div>
-                    <hr style={{ 'marginBottom': '20px' }} />
-                    {Object.keys(matchData).length && Object.keys(matchData).map((date, idx) => {
-                        return date === dateUtils.dateFormat(new Date(), 'yyyy.MM.dd') 
-                        && <div key={idx} style={{ 'marginBottom': '20px' }}>
-                            <div style={{ 'marginBottom': '10px', 'fontSize': '17px' }}>
-                                <strong>{date}</strong>
-                            </div>
-                            <div className={`matchs matchs${isFull ? '-1' : isHalf ? '-2' : '-3'}`}>
-                                {date === dateUtils.dateFormat(new Date(), 'yyyy.MM.dd') && matchData[date].map((match, idx) => {
-                                    return <MatchCard className='matchCard' key={idx} match={match}></MatchCard> 
-                                })}
+                <div className='main-content'>
+                    <div style={{ 'marginBottom': '40px' }}>
+                        <div className='title'>
+                            <div style={{ 'display': 'flex '}}>
+                                <div style={{ 'marginRight': 'auto' }}>
+                                    <strong style={{ 'fontSize': '30px' }}>
+                                        Match
+                                    </strong>
+                                </div>
+                                <div style={{ 'marginLeft': 'auto', 'display': 'flex', 'alignItems': 'center' }}>
+                                    <span className='matchs-btn' onClick={onClickMatchs}>
+                                        detail
+                                    </span>
+                                </div>
                             </div>
                         </div>
-                    })}
-                </div>
-                <div style={{ 'marginBottom': '20px' }}>
-                    <div className='title'>
-                        <div style={{ 'display': 'flex '}}>
-                            <div style={{ 'marginRight': 'auto' }}>
-                                <strong style={{ 'fontSize': '30px' }}>
-                                    Group
-                                </strong>
+                        <hr style={{ 'marginBottom': '20px' }} />
+                        {Object.keys(matchData).length && Object.keys(matchData).map((date, idx) => {
+                            return date === dateUtils.dateFormat(new Date(), 'yyyy.MM.dd') 
+                            && <div key={idx} style={{ 'marginBottom': '20px' }}>
+                                <div style={{ 'marginBottom': '10px', 'fontSize': '17px' }}>
+                                    <strong>{date}</strong>
+                                </div>
+                                <div className={`matchs matchs${isFull ? '-1' : isHalf ? '-2' : '-3'}`}>
+                                    {date === dateUtils.dateFormat(new Date(), 'yyyy.MM.dd') && matchData[date].map((match, idx) => {
+                                        return <MatchCard className='matchCard' key={idx} match={match}></MatchCard> 
+                                    })}
+                                </div>
                             </div>
-                            <div style={{ 'marginLeft': 'auto', 'display': 'flex', 'alignItems': 'center' }}>
-                                <span className='matchs-btn' onClick={onClickGroups}>
-                                    detail
-                                </span>
-                            </div>
-                        </div>
-                    </div>
-                    <hr style={{ 'marginBottom': '20px' }} />
-                    <div className={`groups groups${isFull ? '-2' : '-1'}`}>
-                        {groupData.length && groupData.map((group, idx) => {
-                            return <GroupCard className='groupCard' key={idx} group={group}></GroupCard>
                         })}
                     </div>
+                    <div style={{ 'marginBottom': '20px' }}>
+                        <div className='title'>
+                            <div style={{ 'display': 'flex '}}>
+                                <div style={{ 'marginRight': 'auto' }}>
+                                    <strong style={{ 'fontSize': '30px' }}>
+                                        Group
+                                    </strong>
+                                </div>
+                                <div style={{ 'marginLeft': 'auto', 'display': 'flex', 'alignItems': 'center' }}>
+                                    <span className='matchs-btn' onClick={onClickGroups}>
+                                        detail
+                                    </span>
+                                </div>
+                            </div>
+                        </div>
+                        <hr style={{ 'marginBottom': '20px' }} />
+                        <div className={`groups groups${isFull ? '-2' : '-1'}`}>
+                            {groupData.length && groupData.map((group, idx) => {
+                                return <GroupCard className='groupCard' key={idx} group={group}></GroupCard>
+                            })}
+                        </div>
+                    </div>
                 </div>
+                
             </div>
         </div>
     );

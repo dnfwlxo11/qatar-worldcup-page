@@ -1,5 +1,5 @@
 import React from 'react';
-import './footerbar.scoped.scss';
+import './footerbar.scss';
 import { AiFillGithub, AiFillMail } from 'react-icons/ai'
 
 function footerbar() {

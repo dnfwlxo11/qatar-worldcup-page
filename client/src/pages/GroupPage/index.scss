@@ -1,0 +1,95 @@
+.container {
+    height: calc(100vh - 80px - 60px - 60px);
+    overflow-y: auto;
+
+    & .group-detail {
+        & .matchCard {
+            &:hover {
+                border: 1px solid #BF9B30;
+                cursor: pointer;
+                opacity: 0.8;
+            }
+
+            border: 1px solid lightgrey;
+            margin-bottom: 20px;
+        }
+
+        & .matchs {
+            display: grid;
+    
+            &-1 {
+                grid-column: 1;
+                grid-template-columns: repeat(1, 1fr);
+                grid-gap: 10px;
+            }
+    
+            &-2 {
+                grid-column: 2;
+                grid-template-columns: repeat(2, 1fr);
+                grid-gap: 10px;
+            }
+    
+            &-3 {
+                grid-column: 3;
+                grid-template-columns: repeat(3, 1fr);
+                grid-gap: 10px;
+            }
+        }
+    
+        & .card {
+            padding: 15px;
+            border-radius: 0.5rem;
+            background: #FFF;
+    
+            & .card-top {
+                display: flex;
+                height: 50px;
+                font-size: 20px;
+                font-weight: 600;
+                margin: 0 0 30px 0;
+    
+                & .menu {
+                    &:hover {
+                        cursor: pointer;
+                    }
+    
+                    margin: 3px 5px 3px 5px;
+                    padding: 5px 7px 5px 7px;
+    
+                    display: inline-block;
+                    margin: 5px;
+                }
+    
+                & .active {
+                    border-radius: 0.25rem;
+                    background: #550065;
+                    color: #FFF;
+                }
+            }
+    
+            & .card-nav {
+                display: flex;
+                margin-bottom: 20px;
+            }
+        }
+    }
+
+    & .loading {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 50px;
+        margin: auto;
+        height: calc(100vh - 80px - 60px - 80px - 90px);
+
+        & .spinner {
+            animation: infinite_spin 3s linear infinite;
+        }
+    }
+}
+
+@keyframes infinite_spin {
+    100% {
+        transform: rotate(360deg);
+    }
+}

@@ -7,6 +7,7 @@ import './groupStage.scoped.scss';
 
 import MatchCard from 'components/matchCard';
 import GroupCard from 'components/groupCard';
+import { useMediaQuery } from 'react-responsive';
 
 function GroupStage(props) {
     const [matchData, setMatchData] = useState(null);
@@ -14,6 +15,14 @@ function GroupStage(props) {
     const [currGroup, setCurrGroup] = useState('A');
     const [currGroupMatchs, setCurrGroupMatchs] = useState(null);
     const scrollBar = useRef();
+
+    const isFull = useMediaQuery({
+        query: '(min-width: 1280px)'
+    });
+
+    const isHalf = useMediaQuery({
+        query: '(min-width:960px) and (max-width:1280px)'
+    });
 
     useEffect(() => {
         let complete = false;
@@ -107,7 +116,7 @@ function GroupStage(props) {
                     <div>
                         {currGroupMatchs && Object.keys(currGroupMatchs).map((date, idx) => {
                             return currGroupMatchs[date].map((match, idx) => {
-                                return <MatchCard className='matchCard' key={idx} match={match}></MatchCard> 
+                                return <MatchCard key={idx} match={match}></MatchCard> 
                             })
                         })}
                     </div>

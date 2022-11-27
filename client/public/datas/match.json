@@ -6,42 +6,42 @@
                 {
                     "name": "qatar",
                     "abb": "QAT",
-                    "play": 1,
+                    "play": 2,
                     "win": 0,
                     "draw": 0,
-                    "loss": 1,
-                    "gd": -2,
+                    "loss": 2,
+                    "gd": -4,
                     "points": 0
                 },
                 {
                     "name": "ecuador",
                     "abb": "ECU",
-                    "play": 1,
+                    "play": 2,
                     "win": 1,
-                    "draw": 0,
+                    "draw": 1,
                     "loss": 0,
                     "gd": 2,
-                    "points": 3
+                    "points": 4
                 },
                 {
                     "name": "senegal",
                     "abb": "SEN",
-                    "play": 1,
-                    "win": 0,
+                    "play": 2,
+                    "win": 1,
                     "draw": 0,
                     "loss": 1,
-                    "gd": -2,
-                    "points": 0
+                    "gd": 0,
+                    "points": 3
                 },
                 {
                     "name": "netherlands",
                     "abb": "NED",
-                    "play": 1,
+                    "play": 2,
                     "win": 1,
-                    "draw": 0,
+                    "draw": 1,
                     "loss": 0,
                     "gd": 2,
-                    "points": 3
+                    "points": 4
                 }
             ]
         },
@@ -51,41 +51,41 @@
                 {
                     "name": "england",
                     "abb": "ENG",
-                    "play": 1,
+                    "play": 2,
                     "win": 1,
-                    "draw": 0,
+                    "draw": 1,
                     "loss": 0,
                     "gd": 4,
-                    "points": 3
+                    "points": 4
                 },
                 {
                     "name": "iran",
                     "abb": "IRN",
-                    "play": 1,
-                    "win": 0,
+                    "play": 2,
+                    "win": 1,
                     "draw": 0,
                     "loss": 1,
-                    "gd": -4,
-                    "points": 0
+                    "gd": -2,
+                    "points": 3
                 },
                 {
                     "name": "usa",
                     "abb": "USA",
-                    "play": 1,
+                    "play": 2,
                     "win": 0,
-                    "draw": 1,
+                    "draw": 2,
                     "loss": 0,
                     "gd": 0,
-                    "points": 1
+                    "points": 2
                 },
                 {
                     "name": "wales",
                     "abb": "WAL",
-                    "play": 1,
+                    "play": 2,
                     "win": 0,
                     "draw": 1,
-                    "loss": 0,
-                    "gd": 0,
+                    "loss": 1,
+                    "gd": -2,
                     "points": 1
                 }
             ]
@@ -96,41 +96,41 @@
                 {
                     "name": "argentina",
                     "abb": "ARG",
-                    "play": 1,
-                    "win": 0,
+                    "play": 2,
+                    "win": 1,
                     "draw": 0,
                     "loss": 1,
-                    "gd": -1,
-                    "points": 0
+                    "gd": 1,
+                    "points": 3
                 },
                 {
                     "name": "mexico",
                     "abb": "MEX",
-                    "play": 1,
+                    "play": 2,
                     "win": 0,
                     "draw": 1,
-                    "loss": 0,
-                    "gd": 0,
+                    "loss": 1,
+                    "gd": -2,
                     "points": 1
                 },
                 {
                     "name": "poland",
                     "abb": "POL",
-                    "play": 1,
-                    "win": 0,
+                    "play": 2,
+                    "win": 1,
                     "draw": 1,
                     "loss": 0,
-                    "gd": 0,
-                    "points": 1
+                    "gd": 2,
+                    "points": 4
                 },
                 {
                     "name": "saudiarabia",
                     "abb": "KSA",
-                    "play": 1,
+                    "play": 2,
                     "win": 1,
                     "draw": 0,
-                    "loss": 0,
-                    "gd": 1,
+                    "loss": 1,
+                    "gd": -1,
                     "points": 3
                 }
             ]
@@ -141,41 +141,41 @@
                 {
                     "name": "australia",
                     "abb": "AUS",
-                    "play": 1,
-                    "win": 0,
+                    "play": 2,
+                    "win": 1,
                     "draw": 0,
                     "loss": 1,
-                    "gd": -3,
-                    "points": 0
+                    "gd": -2,
+                    "points": 3
                 },
                 {
                     "name": "denmark",
                     "abb": "DEN",
-                    "play": 1,
+                    "play": 2,
                     "win": 0,
                     "draw": 1,
-                    "loss": 0,
-                    "gd": 0,
+                    "loss": 1,
+                    "gd": -1,
                     "points": 1
                 },
                 {
                     "name": "france",
                     "abb": "FRA",
-                    "play": 1,
-                    "win": 1,
+                    "play": 2,
+                    "win": 2,
                     "draw": 0,
                     "loss": 0,
-                    "gd": 3,
-                    "points": 3
+                    "gd": 4,
+                    "points": 6
                 },
                 {
-                    "name": "turkey",
+                    "name": "tunisia",
                     "abb": "TUN",
-                    "play": 1,
+                    "play": 2,
                     "win": 0,
                     "draw": 1,
-                    "loss": 0,
-                    "gd": 0,
+                    "loss": 1,
+                    "gd": -1,
                     "points": 1
                 }
             ]
@@ -186,12 +186,12 @@
                 {
                     "name": "costarica",
                     "abb": "CRC",
-                    "play": 1,
-                    "win": 0,
+                    "play": 2,
+                    "win": 1,
                     "draw": 0,
                     "loss": 1,
-                    "gd": -7,
-                    "points": 0
+                    "gd": -6,
+                    "points": 3
                 },
                 {
                     "name": "germany",
@@ -206,11 +206,11 @@
                 {
                     "name": "japan",
                     "abb": "JPN",
-                    "play": 1,
+                    "play": 2,
                     "win": 1,
                     "draw": 0,
-                    "loss": 0,
-                    "gd": 1,
+                    "loss": 1,
+                    "gd": 0,
                     "points": 3
                 },
                 {
@@ -276,42 +276,42 @@
                 {
                     "name": "brazil",
                     "abb": "BRA",
-                    "play": 0,
-                    "win": 0,
+                    "play": 1,
+                    "win": 1,
                     "draw": 0,
                     "loss": 0,
-                    "gd": 0,
-                    "points": 0
+                    "gd": 2,
+                    "points": 3
                 },
                 {
                     "name": "cameroon",
                     "abb": "CMR",
-                    "play": 0,
+                    "play": 1,
                     "win": 0,
                     "draw": 0,
-                    "loss": 0,
-                    "gd": 0,
+                    "loss": 1,
+                    "gd": -1,
                     "points": 0
                 },
                 {
                     "name": "serbia",
                     "abb": "SRB",
-                    "play": 0,
+                    "play": 1,
                     "win": 0,
                     "draw": 0,
-                    "loss": 0,
-                    "gd": 0,
+                    "loss": 1,
+                    "gd": -2,
                     "points": 0
                 },
                 {
                     "name": "swiss",
                     "abb": "SUI",
-                    "play": 0,
-                    "win": 0,
+                    "play": 1,
+                    "win": 1,
                     "draw": 0,
                     "loss": 0,
-                    "gd": 0,
-                    "points": 0
+                    "gd": 1,
+                    "points": 3
                 }
             ]
         },
@@ -321,42 +321,42 @@
                 {
                     "name": "ghana",
                     "abb": "GHA",
-                    "play": 0,
+                    "play": 1,
                     "win": 0,
                     "draw": 0,
-                    "loss": 0,
-                    "gd": 0,
+                    "loss": 1,
+                    "gd": -1,
                     "points": 0
                 },
                 {
                     "name": "korea",
                     "abb": "KOR",
-                    "play": 0,
+                    "play": 1,
                     "win": 0,
-                    "draw": 0,
+                    "draw": 1,
                     "loss": 0,
                     "gd": 0,
-                    "points": 0
+                    "points": 1
                 },
                 {
                     "name": "portugal",
                     "abb": "POR",
-                    "play": 0,
-                    "win": 0,
+                    "play": 1,
+                    "win": 1,
                     "draw": 0,
                     "loss": 0,
-                    "gd": 0,
-                    "points": 0
+                    "gd": 1,
+                    "points": 3
                 },
                 {
                     "name": "uruguay",
                     "abb": "URU",
-                    "play": 0,
+                    "play": 1,
                     "win": 0,
-                    "draw": 0,
+                    "draw": 1,
                     "loss": 0,
                     "gd": 0,
-                    "points": 0
+                    "points": 1
                 }
             ]
         }
@@ -455,7 +455,7 @@
                         "abb": "DEN",
                         "score": 0
                     },
-                    "turkey": {
+                    "tunisia": {
                         "abb": "TUN",
                         "score": 0
                     }
@@ -574,7 +574,7 @@
                 "teams": {
                     "swiss": {
                         "abb": "SUI",
-                        "score": 0
+                        "score": 1
                     },
                     "cameroon": {
                         "abb": "CMR",
@@ -584,7 +584,7 @@
                 "group": "G",
                 "time": "19:00",
                 "date": "2022.11.24",
-                "finish": false,
+                "finish": true,
                 "id": 13
             },
             {
@@ -601,7 +601,7 @@
                 "group": "H",
                 "time":  "22:00",
                 "date": "2022.11.24",
-                "finish": false,
+                "finish": true,
                 "id": 14
             },
 
@@ -609,24 +609,24 @@
                 "teams": {
                     "portugal": {
                         "abb": "POR",
-                        "score": 0
+                        "score": 3
                     },
                     "ghana": {
                         "abb": "GHA",
-                        "score": 0
+                        "score": 2
                     }
                 },
                 "group": "H",
                 "time": "01:00",
                 "date": "2022.11.25",
-                "finish": false,
+                "finish": true,
                 "id": 15
             },
             {
                 "teams": {
                     "brazil": {
                         "abb": "BRA",
-                        "score": 0
+                        "score": 2
                     },
                     "serbia": {
                         "abb": "SRB",
@@ -636,7 +636,7 @@
                 "group": "G",
                 "time": "04:00",
                 "date": "2022.11.25",
-                "finish": false,
+                "finish": true,
                 "id": 16
             },
             {
@@ -647,30 +647,30 @@
                     },
                     "iran": {
                         "abb": "IRN",
-                        "score": 0
+                        "score": 2
                     }
                 },
                 "group": "B",
                 "time": "19:00",
                 "date": "2022.11.25",
-                "finish": false,
+                "finish": true,
                 "id": 17
             },
             {
                 "teams": {
                     "qatar": {
                         "abb": "QAT",
-                        "score": 0
+                        "score": 1
                     },
                     "senegal": {
                         "abb": "SEN",
-                        "score": 0
+                        "score": 3
                     }
                 },
                 "group": "A",
                 "time": "22:00",
                 "date": "2022.11.25",
-                "finish": false,
+                "finish": true,
                 "id": 18
             },
             
@@ -678,17 +678,17 @@
                 "teams": {
                     "netherlands": {
                         "abb": "NED",
-                        "score": 0
+                        "score": 1
                     },
                     "ecuador": {
                         "abb": "ECU",
-                        "score": 0
+                        "score": 1
                     }
                 },
                 "group": "A",
                 "time": "01:00",
                 "date": "2022.11.26",
-                "finish": false,
+                "finish": true,
                 "id": 19
             },
             {
@@ -705,31 +705,31 @@
                 "group": "B",
                 "time": "04:00",
                 "date": "2022.11.26",
-                "finish": false,
+                "finish": true,
                 "id": 20
             },
             {
                 "teams": {
-                    "turkey": {
+                    "tunisia": {
                         "abb": "TUN",
                         "score": 0
                     },
                     "australia": {
                         "abb": "AUS",
-                        "score": 0
+                        "score": 1
                     }
                 },
                 "group": "D",
                 "time": "19:00",
                 "date": "2022.11.26",
-                "finish": false,
+                "finish": true,
                 "id": 21
             },
             {
                 "teams": {
                     "poland": {
                         "abb": "POL",
-                        "score": 0
+                        "score": 2
                     },
                     "saudiarabia": {
                         "abb": "KSA",
@@ -739,7 +739,7 @@
                 "group": "C",
                 "time": "22:00",
                 "date": "2022.11.26",
-                "finish": false,
+                "finish": true,
                 "id": 22
             },
             
@@ -747,24 +747,24 @@
                 "teams": {
                     "france": {
                         "abb": "FRA",
-                        "score": 0
+                        "score": 2
                     },
                     "denmark": {
                         "abb": "DEN",
-                        "score": 0
+                        "score": 1
                     }
                 },
                 "group": "D",
                 "time": "01:00",
                 "date": "2022.11.27",
-                "finish": false,
+                "finish": true,
                 "id": 23
             },
             {
                 "teams": {
                     "argentina": {
                         "abb": "ARG",
-                        "score": 0
+                        "score": 2
                     },
                     "mexico": {
                         "abb": "MEX",
@@ -774,7 +774,7 @@
                 "group": "C",
                 "time": "04:00",
                 "date": "2022.11.27",
-                "finish": false,
+                "finish": true,
                 "id": 24
             },
             {
@@ -785,13 +785,13 @@
                     },
                     "costarica": {
                         "abb": "CRC",
-                        "score": 0
+                        "score": 1
                     }
                 },
                 "group": "E",
                 "time": "19:00",
                 "date": "2022.11.27",
-                "finish": false,
+                "finish": true,
                 "id": 25
             },
             {
@@ -1004,7 +1004,7 @@
             },
             {
                 "teams": {
-                    "turkey": {
+                    "tunisia": {
                         "abb": "TUN",
                         "score": 0
                     },

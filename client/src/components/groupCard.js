@@ -1,5 +1,5 @@
 import React, { useState, useEffect, useMemo } from 'react';
-import './groupCard.scoped.scss'
+import './groupCard.scss'
 
 function GroupCard(props) {
     const [isSorted, setIsSorted] = useState(false);
