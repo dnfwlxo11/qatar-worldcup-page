@@ -13,85 +13,47 @@
 
         & .card-top {
             display: flex;
+            height: 50px;
             font-size: 20px;
             font-weight: 600;
             margin: 0 0 30px 0;
 
             & .menu {
+                &:hover {
+                    cursor: pointer;
+                }
+
+                margin: 3px 5px 3px 5px;
+                padding: 5px 7px 5px 7px;
+
                 display: inline-block;
                 margin: 5px;
+            }
+
+            & .active {
+                border-radius: 0.25rem;
+                background: #550065;
+                color: #FFF;
             }
         }
 
         & .card-nav {
             display: flex;
             margin-bottom: 20px;
-
-            & .arrow-btn {
-                width: 15px;
-                display: flex;
-                justify-content: center;
-                align-items: center;
-
-                &:hover {
-                    cursor: pointer;
-                }
-            }
-
-            & .card-menu {
-                margin-left: auto;
-                margin-right: auto;
-
-                &::-webkit-scrollbar {
-                    display: none;
-                }
-
-                display: flex;
-                overflow-x: scroll;
-                flex-wrap: nowrap;
-                max-width: calc(100% - 15px - 15px - 20px);
-                scroll-behavior: smooth;
-                scroll-margin-block: end;
-
-                & .menu {
-                    display: flex;
-                    justify-content: center;
-                    align-items: center;
-                    width: 70px;
-                    flex: 0 0 auto;
-                    background: inherit;
-                    margin: 3px 5px 3px 5px;
-                    padding: 3px 5px 3px 5px;
-
-                    &:hover {
-                        cursor: pointer;
-                    }
-                }
-
-                & .active {
-                    font-weight: 600px;
-                    border-radius: 0.2rem;
-                    color: #FFF;
-                    background: lightgrey;
-                }
-            }
-        }
-
-        & .card-content {
-
         }
     }
-}
 
-.loading {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-size: 50px;
-    height: calc(100vh - 80px - 60px);
+    & .loading {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 50px;
+        margin: auto;
+        height: calc(100vh - 80px - 60px - 80px - 90px);
 
-    & .spinner {
-        animation: infinite_spin 3s linear infinite;
+        & .spinner {
+            animation: infinite_spin 3s linear infinite;
+        }
     }
 }
 

@@ -1423,22 +1423,24 @@
                     "id": 71
                 }
             ],
-            "final": {
-                "teams": {
-                    "RU61": {
-                        "abb": "ru61",
-                        "score": 0
+            "final": [
+                {
+                    "teams": {
+                        "RU61": {
+                            "abb": "ru61",
+                            "score": 0
+                        },
+                        "RU62": {
+                            "abb": "ru62",
+                            "score": 0
+                        }
                     },
-                    "RU62": {
-                        "abb": "ru62",
-                        "score": 0
-                    }
-                },
-                "time": "00:00",
-                "date": "2022.12.18",
-                "finish": false,
-                "id": 72
-            }
+                    "time": "00:00",
+                    "date": "2022.12.18",
+                    "finish": false,
+                    "id": 72
+                }
+            ]
         }
     }
 }
