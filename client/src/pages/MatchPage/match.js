@@ -2,16 +2,12 @@ import React, { useState, useEffect } from 'react';
 import Utils from 'utils';
 import { useParams } from 'react-router-dom';
 import './match.scoped.scss';
+import { FaSpinner } from 'react-icons/fa';
 
 function Match(props) {
     const { id } = useParams();
 
-    const [targetMatch, setTargetMatch] = useState({
-        group: null,
-        date: null,
-        time: null,
-        teams: [],
-    });
+    const [targetMatch, setTargetMatch] = useState(null);
 
     useEffect(() => {
         let complete = false;
@@ -32,7 +28,7 @@ function Match(props) {
             <div className='logo-div' style={{ 'marginBottom': '40px' }}>
                 <img className='logo2' src="/assets/qatar_logo2.png" alt="" />
             </div>
-            <div className='match-div'>
+            {targetMatch ? <div className='match-div'>
                 <div className='match-schedule'>
                     <div className='groupInfor'>
                         <strong>
@@ -48,7 +44,7 @@ function Match(props) {
                 <div className='match-infor'>
                     <div className='left-team'>
                         <div>
-                            <strong>{Object.keys(targetMatch.teams)[0]}</strong>    
+                            <strong>{Object.keys(targetMatch.teams)[0].toUpperCase()}</strong>    
                         </div>
                         <div>
                             <img className='flag' src={`/assets/flags/${Object.keys(targetMatch.teams)[0]}.png`} alt="" />
@@ -74,10 +70,13 @@ function Match(props) {
                     </div>
                     <div className='right-team'>
                         <img className='flag' src={`/assets/flags/${Object.keys(targetMatch.teams)[1]}.png`} alt="" />
-                        <strong>{Object.keys(targetMatch.teams)[1]}</strong>
+                        <strong>{Object.keys(targetMatch.teams)[1].toUpperCase()}</strong>
                     </div>
                 </div>
             </div>
+            : <div className='loading'>
+                <FaSpinner icon="spinner" className="spinner" />
+            </div>}
         </div>
     );
 }

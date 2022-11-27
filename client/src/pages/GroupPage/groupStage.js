@@ -20,10 +20,6 @@ function GroupStage(props) {
         query: '(min-width: 1280px)'
     });
 
-    const isHalf = useMediaQuery({
-        query: '(min-width:960px) and (max-width:1280px)'
-    });
-
     useEffect(() => {
         let complete = false;
 
@@ -115,9 +111,19 @@ function GroupStage(props) {
                     </div>
                     <div>
                         {currGroupMatchs && Object.keys(currGroupMatchs).map((date, idx) => {
-                            return currGroupMatchs[date].map((match, idx) => {
-                                return <MatchCard key={idx} match={match}></MatchCard> 
-                            })
+                            return <div key={idx} style={{ 'marginBottom': '30px' }}>
+                                <div style={{
+                                    'marginBottom': '10px',
+                                    'fontSize': '17px'
+                                }}>
+                                    <strong style={{ 'marginLeft': '10px' }}>{date}</strong>
+                                </div>
+                                <div className={`matchs matchs${isFull ? '-1' : '-2'}`}>
+                                    {currGroupMatchs[date].map((match, idx) => {
+                                        return <MatchCard key={idx} match={match}></MatchCard> 
+                                    })}
+                                </div>
+                            </div>
                         })}
                     </div>
                 </div>

@@ -51,7 +51,7 @@ function Index(props) {
                             Matchs
                         </strong>
                     </div>
-                    {Object.keys(matchData).length && Object.keys(matchData).map((date, idx) => {
+                    {Object.keys(matchData).map((date, idx) => {
                         return <div key={idx} style={{ 'marginBottom': '30px' }}>
                             <div style={{
                                 'marginBottom': '10px',

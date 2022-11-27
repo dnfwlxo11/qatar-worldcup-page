@@ -11,6 +11,9 @@
     
     .match-div {
         margin-bottom: 20px;
+        background: #FFF;
+        padding: 30px;
+        border-radius: 0.5rem;
     
         & .match-schedule {
             margin-bottom: 20px;
@@ -26,6 +29,7 @@
         }
     
         & .match-infor {
+            font-weight: 600;
             margin-bottom: 20px;
             display: flex;
             justify-content: center;
@@ -50,30 +54,30 @@
                     margin: 0 20px 0 20px;
                 }
             }
-        }
-    
-        & .flag {
-            display: flex;
-            width: 80px;
-            height: 60px;
-            border: 1px solid #BF9B30;
-        }
-    
-        & .badge {
-            padding: 1px 10px 1px 10px;
-            font-weight: 700;
-            border-radius: 0.5rem;
-    
-            &-before {
-                border: 3px solid lightgrey;
-                background: #FFF;
-                color: lightgrey;    
-            }  
-    
-            &-after {
-                border: 3px solid lightcoral;
-                background: #FFF;
-                color: lightcoral;    
+
+            & .flag {
+                display: flex;
+                width: 80px;
+                height: 60px;
+                border: 1px solid #BF9B30;
+            }
+        
+            & .badge {
+                padding: 1px 10px 1px 10px;
+                font-weight: 700;
+                border-radius: 0.5rem;
+        
+                &-before {
+                    border: 3px solid gray;
+                    background: #FFF;
+                    color: gray;    
+                }  
+        
+                &-after {
+                    border: 3px solid lightcoral;
+                    background: #FFF;
+                    color: lightcoral;    
+                }
             }
         }
     }

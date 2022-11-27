@@ -26,11 +26,11 @@ function MatchCard(props) {
                 <div className='teams'>
                     <div className='team'>
                         <img className='flag' src={`/assets/flags/${Object.keys(match.teams)[0]}.png`} alt="국기1" />
-                        <span className='country'>{Object.keys(match.teams)[0]}</span>
+                        <span className='country'>{Object.keys(match.teams)[0].toUpperCase()}</span>
                     </div>
                     <div className='team'>
                         <img className='flag' src={`/assets/flags/${Object.keys(match.teams)[1]}.png`} alt="국기2" />
-                        <span className='country'>{Object.keys(match.teams)[1]}</span>
+                        <span className='country'>{Object.keys(match.teams)[1].toUpperCase()}</span>
                     </div>    
                 </div>
                 <div className='match-time'>
